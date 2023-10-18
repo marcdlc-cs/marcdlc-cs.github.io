@@ -27,7 +27,7 @@ callouts:
     title: New
     color: green
   note:
-    title: Note
+    title: Skills Demonstrated
     color: purple
   warning:
     title: Warning
