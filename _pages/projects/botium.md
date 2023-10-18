@@ -58,7 +58,7 @@ Assets managed by the IT Department include:
 | Account management policies | Preventative; reduce attack surface and limit overall impact from disgruntled/former employees | Managerial | High |
 | Separation of duties | Preventative; ensure no one has so much access that they can abuse the system for personal gain | Operational | High |
 | IDS | Detective; allows IT team to identify possible intrusions quickly | Technical | High
-| Encyption | Preventative; makes confidential information/data more secure | Technical | High
+| Encryption | Preventative; makes confidential information/data more secure | Technical | High
 | Backups | Corrective; supports ongoing productivity in the case of an event; aligns to the disaster recovery plan | Technical | High
 | Lighting | Deterrent; limit “hiding” places to deter threats | Physical | Low
 | CCTV surveillance | Preventative/detective; can reduce risk of certain events; can be used after event for investigation | Physical | Medium/Low
