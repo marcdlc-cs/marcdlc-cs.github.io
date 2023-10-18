@@ -135,7 +135,7 @@ The following should be implemented when possible, but are not critical to the o
  - Signage indicating alarm service provider: reduces to likelihood of a successful attack
  - Closed-circuit television (CCTV) surveillance: used to investigative purposes after an incident
 
-**Summary**
+**Summary/Recommendations**
 
  The internal security assessment revealed several critical findings that require immediate attention to strengthen the organization's security posture. It is crucial to implement least privilege controls, disaster recovery plans, and strong password, access control, and account management policies to minimize the risk of data breaches, unauthorized access, and compromised accounts. Separation of duties should be enforced to prevent abuse of system privileges. Intrusion detection systems, encryption, backups, password management systems, and antivirus software are essential for identifying and mitigating threats, ensuring data confidentiality, integrity, and overall system security. Legacy systems require manual monitoring and maintenance to address vulnerabilities.
 
