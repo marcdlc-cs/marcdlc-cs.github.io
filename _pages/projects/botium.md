@@ -6,7 +6,6 @@ title: Botium Toys Security Audit
 
 {: .note }
 Data Security, Security Policies, Compliance, Risk Analysis, Risk Mitigation, NISF CSF: Identify, Stakeholder Communcation, Documentation
-{: .fs-3 }
 
 {::comment}
 Data Security
