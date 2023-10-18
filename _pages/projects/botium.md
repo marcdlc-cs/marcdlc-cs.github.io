@@ -52,10 +52,10 @@ Assets managed by the IT Department include:
 |---|---|:---:|:--:|
 | Least privilege |Preventative; reduces risk by making sure vendors and non-authorized staff only have access to the assets/data they need to do their jobs | Managerial | High    |
 | Disaster recovery plans |Corrective; business continuity to ensure systems are able to run in the event of an incident/there is limited to no loss of productivity downtime/impact to system components | Managerial | High |
-| Password policies | Preventative; establish password strength rules to improve security/reduce likelihood of account compromise through brute force or dictionary attack techniques | Managerial | High |
-| Access control policies | Preventative; increase confidentiality and integrity of data | Managerial | High |
+| Password policies | Preventative; establish password strength rules to improve security/reduce likelihood of account compromise through brute force or dictionary attack techniques | Operational | High |
+| Access control policies | Preventative; increase confidentiality and integrity of data | Operational | High |
 | Account management policies | Preventative; reduce attack surface and limit overall impact from disgruntled/former employees | Managerial | High |
-| Separation of duties | Preventative; ensure no one has so much access that they can abuse the system for personal gain | Managerial | High |
+| Separation of duties | Preventative; ensure no one has so much access that they can abuse the system for personal gain | Operational | High |
 | IDS | Detective; allows IT team to identify possible intrusions quickly | Technical | High
 | Encyption | Preventative; makes confidential information/data more secure | Technical | High
 | Backups | Corrective; supports ongoing productivity in the case of an event; aligns to the disaster recovery plan | Technical | High
