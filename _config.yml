@@ -17,6 +17,6 @@ defaults:
       layout: default
 
 callouts:
-  note:
+  skills:
     title: Skills Demonstrated
     color: blue
