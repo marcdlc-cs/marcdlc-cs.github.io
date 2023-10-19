@@ -18,8 +18,9 @@ defaults:
 
 callouts_level: quiet # or loud
 callouts:
-  highlight:
-    color: yellow
+  note2:
+    title: 💡 Code Explanation
+    color: grey-dk
   important:
     title: Important
     color: blue
