@@ -6,7 +6,7 @@ permalink: /dnsicmp/
 {: .no_toc }
 
 {: .note }
-Network Analysis, Incident Response, Protocol Analysis, Documentation
+Network Analysis, Incident Response & Reporting, Protocol Analysis, Documentation
 {: .fs-3 }
 
 #### Contents
