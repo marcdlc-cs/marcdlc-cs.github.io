@@ -6,7 +6,7 @@ permalink: /sql/
 {: .no_toc }
 
 {: .note }
-Incident Response & Reporting, NIST CSF, Compliance, Vulnerability Assessment & Mitigation, Network Security
+Incident Investigation, Data Analysis, Security Event Monitoring, Basic SQL Proficiency
 {: .fs-3 }
 
 #### Contents
@@ -21,10 +21,10 @@ I work as a security professional at a large organization where I investigate se
 Use SQL filters to retrieve records from different datasets and investigate the potential security issues
 
 ## Results
-### 📄Task 1: Retrieve after hours failed login attempts
+### 📄 Task 1: Retrieve after hours failed login attempts
 
 I need to investigate a potential security incident that occured after business hours. To query the relevant data, I used the following commands:
-```
+```sql
 SELECT *
 FROM log_in_attempts
 WHERE login_time > '18:00' AND success = 0
@@ -47,11 +47,11 @@ Terminal output:
 <br>
 <br>
 <br>
-### 📄Task 2: Retrieve login attempts on specific dates
+### 📄 Task 2: Retrieve login attempts on specific dates
 A suspicious event occured on 2022-05-09. To investigate this, I review all login attempts which occured on this day and the day before:
-```
+```sql
 SELECT *
-From log_in_attempts
+FROM log_in_attempts
 WHERE login_date = '2022-05-09' OR login_date = '2022-05-08';
 ```
 
