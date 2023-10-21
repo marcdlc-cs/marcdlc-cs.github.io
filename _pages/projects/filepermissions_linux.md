@@ -91,10 +91,6 @@ Terminal output:
 {: .fs-3 }
 ![](/assets/images/permissions/perm_step7.png)
 
-In the chmod command, ```u-w``` removes write permissions for the user, ```g+r``` adds read permissions for the group while ```g-w``` removes write permissions for the group. 
-
-The modified permissions string is now: ```-r--r-----```
-
 <br>
 <br>
 ### Summary
