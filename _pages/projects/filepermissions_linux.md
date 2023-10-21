@@ -6,7 +6,7 @@ permalink: /permissions/
 {: .no_toc }
 
 {: .note }
-Network Analysis, Incident Response & Reporting, Protocol Analysis, Documentation
+Access Control, Authorization Assessment, Permission Modification, User Account Management
 {: .fs-3 }
 
 #### Contents
