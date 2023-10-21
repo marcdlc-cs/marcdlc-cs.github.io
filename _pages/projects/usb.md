@@ -1,6 +1,6 @@
 ---
 title: USB Baiting Attack Vectors
-permalink: /ddosnist/
+permalink: /usbbait/
 ---
 # USB Baiting Attack Vectors
 {: .no_toc }
