@@ -1,6 +1,6 @@
 ---
 title: USB Baiting Attack Vectors
-permalink: /usbbait/
+permalink: /usbbait
 ---
 # USB Baiting Attack Vectors
 {: .no_toc }
