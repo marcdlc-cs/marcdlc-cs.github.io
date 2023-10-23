@@ -15,7 +15,7 @@ Wireshark, Network Analysis, Network Protocols, Packet Filtering & Analysis, Kal
 {:toc}
 
 ## Scenario
-In this lab, I will be capturing requests sent and received from my Kali machine. I will then analyze these requests for captured information. I will also capture usernames and passwords submitted through http websites with Wireshark.
+In this lab, I will be using Wireshark to capture requests sent and received from my Kali machine. I will then analyze these requests for captured information.
 
 ## Goals & Objectives
 
