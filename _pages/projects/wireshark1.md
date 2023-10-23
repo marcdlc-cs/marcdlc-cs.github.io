@@ -6,7 +6,7 @@ permalink: /wireshark1
 {: .no_toc }
 
 {: .note }
-Firewall Configuration, Network Hardening, Security Configuration
+Wireshark, Network Analysis, Network Protocols, Packet Filtering & Analysis, Kali Linux
 {: .fs-3 }
 
 #### Contents

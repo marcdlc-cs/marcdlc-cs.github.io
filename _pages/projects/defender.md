@@ -6,7 +6,7 @@ permalink: /defender
 {: .no_toc }
 
 {: .note }
-Wireshark, Network Analysis, Network Protocols, Packet Filtering & Analysis, Kali Linux
+Firewall Configuration, Network Hardening, Security Configuration
 {: .fs-3 }
 
 #### Contents
