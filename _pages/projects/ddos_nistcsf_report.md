@@ -1,6 +1,6 @@
 ---
 title: DDoS Attack Incident Report
-permalink: /ddosnist/
+permalink: /ddosnist
 ---
 # DDoS Attack Incident Report
 {: .no_toc }

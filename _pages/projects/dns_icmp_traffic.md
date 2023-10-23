@@ -1,6 +1,6 @@
 ---
 title: DNS and ICMP Traffic Analysis
-permalink: /dnsicmp/
+permalink: /dnsicmp
 ---
 # DNS, ICMP Network Traffic Analysis
 {: .no_toc }

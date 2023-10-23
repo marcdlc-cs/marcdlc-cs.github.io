@@ -1,6 +1,6 @@
 ---
 title: File Permissions in Linux
-permalink: /permissions/
+permalink: /permissions
 ---
 # Managing File Permissions in Linux
 {: .no_toc }

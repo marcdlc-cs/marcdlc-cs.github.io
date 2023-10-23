@@ -1,6 +1,6 @@
 ---
 title: Botium Toys Security Audit
-permalink: /botium/
+permalink: /botium
 ---
 # Botium Toys Security Audit  
 {: .no_toc }

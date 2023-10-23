@@ -1,6 +1,6 @@
 ---
 title: SQL Queries and Filters
-permalink: /sql/
+permalink: /sql
 ---
 # Applying Filters to SQL Queries
 {: .no_toc }
