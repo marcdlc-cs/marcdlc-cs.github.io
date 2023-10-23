@@ -114,7 +114,7 @@ for element in remove_list:
 
 <br>
 <br>
-### 📄 Task 7: Update the file with the revised list of IP addresses 
+### 📄 Task 6: Update the file with the revised list of IP addresses 
 
 ```python
 import_file = "allow_list.txt"
