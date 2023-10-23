@@ -1,6 +1,7 @@
 ---
 title: Capturing Credentials With Wireshark
 permalink: /wireshark1
+parent: Network Security
 ---
 # Capturing Credentials With Wireshark
 {: .no_toc }
@@ -36,7 +37,7 @@ In this lab, I will be using Wireshark to capture requests sent and received fro
 
 ![](/assets/images/101_wireshark1/step3.png)
 
-**Step 4:** Back in Firefox, I enter username1 in the Username field and password1234 in the Password field and click login.
+**Step 4:** Back in Firefox, I enter username1 in the Username field and password1234 in the Password field and click login. These are the credentials I'll be capturing.
 
 ![](/assets/images/101_wireshark1/step4.png)
 

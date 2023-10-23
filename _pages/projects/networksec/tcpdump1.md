@@ -1,8 +1,9 @@
 ---
-title: DNS and ICMP Traffic Analysis
-permalink: /dnsicmp
+title: Tcpdump Traffic Analysis
+permalink: /tcpdump1
+parent: Network Security
 ---
-# DNS, ICMP Network Traffic Analysis
+# Tcpdump Traffic Analysis
 {: .no_toc }
 
 {: .note }

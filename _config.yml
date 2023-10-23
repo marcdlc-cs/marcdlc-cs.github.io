@@ -1,11 +1,11 @@
-title: Marc De La Cruz
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Marc's Cybersecurity Portfolio
+description: Cybersecurity Portfolio for Marc De La Cruz
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  LinkedIn: https://linkedin.com/in/marcdlc
 
 include: [_pages]
 
@@ -18,20 +18,11 @@ defaults:
 
 callouts_level: quiet # or loud
 callouts:
-  note2:
-    title: 💡 Code Explanation
-    color: grey-dk
-  important:
-    title: Important
-    color: blue
-  new:
-    title: New
-    color: green
   note:
     title: Skills Demonstrated
     color: blue
-  warning:
-    title: Warning
-    color: red
+  note2:
+    title: 💡 Code Explanation
+    color: grey-dk
 
 logo: "/assets/images/marcdlclogo_g.png"

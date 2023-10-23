@@ -1,6 +1,7 @@
 ---
 title: SQL Queries and Filters
 permalink: /sql
+parent: Code
 ---
 # Applying Filters to SQL Queries
 {: .no_toc }

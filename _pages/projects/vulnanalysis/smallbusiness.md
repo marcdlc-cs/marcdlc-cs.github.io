@@ -1,6 +1,7 @@
 ---
 title: Vulnerability Assessment for a Small Business
-permalink: /vulnassess
+permalink: /vulnassess1
+parent: Vulnerability Analysis
 ---
 # Vulnerability Assessment for a Small Business
 {: .no_toc }
