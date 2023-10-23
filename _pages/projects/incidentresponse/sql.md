@@ -1,9 +1,9 @@
 ---
-title: SQL Queries and Filters
+title: Investigating Logins With SQL
 permalink: /sql
-parent: Code
+parent: Incident Reponse
 ---
-# Applying Filters to SQL Queries
+# Investigating Logins With SQL
 {: .no_toc }
 
 {: .note }
@@ -74,7 +74,6 @@ WHERE NOT country LIKE 'MEX%';
 ```
 
 {: .note2 }
->
 > In the country column of the queried table, Mexico is represented by either "MEX" or "MEXICO." I need to filter for a pattern to obtain the data I need. 
 >
 > In the portion of the command "LIKE 'MEX%'," the LIKE operator allows me to filter by a pattern while % is a wildcard that substitutes for any number of characters. NOT negates the condition where the pattern matched must start with "MEX," so the output excludes all country data related to Mexico.
