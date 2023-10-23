@@ -26,7 +26,7 @@ In this lab, I will be capturing requests sent and received from my Kali machine
 ## Results
 ### 📄 Task 1: Capture login credentials
 
-**Step 1:**  In Kali Linux, open Wireshark by typing ```sudo wireshark``` in the terminal.
+**Step 1:**  In Kali Linux, I open Wireshark by typing ```sudo wireshark``` in the terminal.
 
 **Step 2:** In Wireshark, I select the eth0 interface.
 
