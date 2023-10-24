@@ -7,7 +7,7 @@ parent: Threat Detection & Analysis
 {: .no_toc }
 
 {: .note }
-Digital Forensics, Risk Assessment & Mitigation, Threat Analysis
+MITRE ATT&CK, Threat Analysis, Malware Analysis, OSINT, Documentation
 {: .fs-3 }
 
 #### Contents
