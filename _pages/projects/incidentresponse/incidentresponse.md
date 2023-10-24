@@ -1,7 +1,7 @@
 ---
 title: Incident Response
 nav_order: 6
-permalink: /incidentreponse
+permalink: /incidentresponse
 has_children: true
 ---
 
