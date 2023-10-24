@@ -24,5 +24,8 @@ callouts:
   note2:
     title: 💡 Code Explanation
     color: grey-dk
+  note3:
+    title: Note
+    color: yellow
 
 logo: "/assets/images/marcdlclogo_g.png"
