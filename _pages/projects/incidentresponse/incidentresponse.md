@@ -5,4 +5,4 @@ permalink: /incidentresponse
 has_children: true
 ---
 
-Incident Reponse projects are listed here!
+Incident Response projects are listed here!
