@@ -46,7 +46,12 @@ The purpose of this vulnerability assessment is to evaluate the risk of having o
  Storage | Physical hardware can breakdown over time | 3 | 2 | 6 |
 
 {: .note3 }
-Risk = Likelihood * Severity
+>*Risk* = Likelihood * Severity
+>
+>*Likelihood* is the probability or chance that a specific event or threat will occur. Scale 1-3. A score of 3 indicates highly probable. 
+>
+>*Severity* represents the extent of harm or damage that could be caused if the risk event were to occur. Scale 1-3. A score of 3 indicates high impact/damage.
+{: .fs-3 }
 
 #### Approach
 {: .no_toc }
