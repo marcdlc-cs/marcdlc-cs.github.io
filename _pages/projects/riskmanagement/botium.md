@@ -18,22 +18,11 @@ Data Security, Security Policies, Compliance, Risk Analysis, Risk Mitigation, NI
 ## Scenario
 Botium Toys, a small U.S. toy business with a growing online presence, is facing increasing pressure to support its online market worldwide. To address this, the IT department manager has initiated an internal IT audit to ensure business continuity and compliance as the company expands. Compliance with regulations related to online payments and business operations in the European Union (E.U.) is a priority. The IT manager has started by implementing the NIST CSF, defining audit scope and goals, and conducting a risk assessment. 
 
-Currently, there is inadequate management of assets. Additionally, Botium Toys does not have the proper controls in place and may not be compliant with U.S. and international regulations and standards. 
-
-## Goals & Objectives
-Assist the IT manager by:
-<ol>
-    <li>Suggesting controls based on current company assets</li>
-    <li>Review the company's compliance with proper data regulations and standards</li>
-    <li>Communicate findings and recommendations clearly to IT manager and stakeholders in a stakeholder memorandum.</li>
-</ol>
-
-## Results
-### Recommended Controls
+Currently, there is inadequate management of assets. Additionally, Botium Toys does not have the proper controls in place and may not be compliant with U.S. and international regulations and standards.
 
 <details closed markdown="block">
   <summary>
-    Click to view current assets
+    Click to view company assets
   </summary>
 
 Assets managed by the IT Department include:
@@ -48,7 +37,17 @@ Assets managed by the IT Department include:
 - Badge readers
 - Legacy system maintenance: end-of-life systems that require human monitoring 
 </details>
-{: .fs-3 }
+
+## Goals & Objectives
+Assist the IT manager by:
+<ol>
+    <li>Suggesting controls based on current company assets</li>
+    <li>Review the company's compliance with proper data regulations and standards</li>
+    <li>Communicate findings and recommendations clearly to IT manager and stakeholders in a stakeholder memorandum.</li>
+</ol>
+
+## Results
+### Recommended Controls
 
 | Control name | Type & Description | Category  | Priority  |
 |---|---|:---:|:--:|
