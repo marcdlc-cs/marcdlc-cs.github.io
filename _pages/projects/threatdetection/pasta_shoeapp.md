@@ -45,7 +45,7 @@ Go through each of the seven stages of the framework to identify security requir
     </tr>
     <tr>
         <td>3. Decompose application</td>
-        <td><a href="assets/images/dataflow_lg.png" target="_blank">Dataflow diagram</a></td>
+        <td><a href="assets/images/dataflow_lg.png" target="_blank">Dataflow diagram</a><sup>1</sup></td>
     </tr>
     <tr>
         <td>4. Threat analysis</td>
@@ -70,7 +70,7 @@ Go through each of the seven stages of the framework to identify security requir
     </tr>
     <tr>
         <td>6. Attack modeling</td>
-        <td><a href="assets/images/attacktree.png" target="_blank">Attack tree</a> (for user data component)</td>
+        <td><a href="assets/images/attacktree.png" target="_blank">Attack tree</a><sup>1</sup></td>
     </tr>
     <tr>
         <td>7. Risk analysis and impact</td>
@@ -83,3 +83,7 @@ Go through each of the seven stages of the framework to identify security requir
             </ul></td>
     </tr>
 </table>
+
+----
+
+<sup>1</sup> For the sake of brevity, the data diagram and attack tree have been truncated. In real-world scenarios, these diagrams are much more detailed and complex. 
