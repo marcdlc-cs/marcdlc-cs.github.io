@@ -1,5 +1,5 @@
 ---
-title: Incident Reponse
+title: Incident Response
 nav_order: 6
 permalink: /incidentreponse
 has_children: true
