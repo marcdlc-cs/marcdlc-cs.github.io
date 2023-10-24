@@ -65,7 +65,7 @@ Go through each of the seven stages of the framework to identify security requir
                 <li>Lack of prepared statements and input validation to prevent injection attacks</li>
                 <li>Using untrustworthy CAs to receive digital certificates from and not using a hierarchal trust model to establish a properly validated trust chain</li>
                 <li>Lack of MFA to prevent unauthorized account access as a result of path-the-hash attacks</li>
-                <li>Not signing code with a valid digital certifcate to help detect code tampering and prevent malware installation</li>
+                <li>Lack of code signing to help detect code tampering and prevent malware installation</li>
             </ul></td>
     </tr>
     <tr>
