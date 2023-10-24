@@ -78,7 +78,7 @@ Go through each of the seven stages of the framework to identify security requir
             <ul>
                 <li>Prepared statements and input validation to prevent injection attacks</li>
                 <li>NGFW and IDS/IPS to help mitigate the impact DDoS attacks</li>
-                <li>MFA</li>
+                <li>MFA to improve access controls</li>
                 <li>Code signing to help detect tampering with the app’s source code by internal or external threats</li>
             </ul></td>
     </tr>
