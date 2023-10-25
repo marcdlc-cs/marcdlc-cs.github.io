@@ -131,8 +131,8 @@
 
 @if variable-exists(logo) {
   .site-logo {
-    width: 100%;
-    height: 100%;
+    width: 149px;
+    height: 29px;
     background-image: url($logo);
     background-repeat: no-repeat;
     background-position: left center;
