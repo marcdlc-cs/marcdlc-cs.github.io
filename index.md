@@ -12,5 +12,5 @@ Each project is grouped into categories that roughly cover the vast domains of C
 
 ### Recently added projects 👈(ﾟヮﾟ👈) 
 - [PASTA Threat Modeling for a Sneaker App](/pasta_shoeapp)
-- [Using Python for File Updates](/python1)
 - [Capturing Credentials With Wireshark](/wireshark1)
+- [Analyzing Wannacry with ATT&CK](/wannacry)
