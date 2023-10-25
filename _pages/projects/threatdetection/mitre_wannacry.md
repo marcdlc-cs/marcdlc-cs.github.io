@@ -78,7 +78,7 @@ Source: [https://attack.mitre.org/techniques/T1564/001](https://attack.mitre.org
 
 WannaCry scans its local network segment for remote systems to try to exploit and copy itself to.
 
-Source: [https://attack.mitre.org/techniques/T1018/](https://attack.mitre.org/techniques/T1018/)
+Source: [https://attack.mitre.org/techniques/T1018](https://attack.mitre.org/techniques/T1018/)
 
 - Lateral Tool Transfer
 
