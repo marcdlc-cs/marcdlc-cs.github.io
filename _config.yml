@@ -28,7 +28,7 @@ callouts:
     title: Note
     color: yellow
 
-logo: "/assets/images/marcdlc_logo.png"
+logo: "/assets/images/marcdlc_logo.svg"
 
 nav_external_links:
   - title: My LinkedIn
