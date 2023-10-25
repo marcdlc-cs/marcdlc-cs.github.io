@@ -50,3 +50,7 @@ Customers have reported that they are unable to access the company website at �
 The incident occurred today at 1:23 p.m. Customers called the organization to notify the IT team they received the message “destination port unreachable” when they attempted to visit the website. The network security professionals within the organization are currently investigating the issue so customers can access the website again. 
 
 In our investigation into the issue, we conducted packet sniffing tests using tcpdump. In the resulting log file, we found that DNS port 53 was unreachable. The DNS server is unable to return the IP address of the company website due to port 53 being unreachable. Because the IP address cannot be obtained, any request sent by customers’ computers to the company website server will not be fulfilled. This error may be due to a firewall configuration  which is blocking port 53. System administrators for the DNS server will be contacted to check for firewall misconfigurations and signs of a possible DoS attack.
+
+---
+
+<a href="#top" id="back-to-top">Back to top</a>

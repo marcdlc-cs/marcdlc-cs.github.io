@@ -87,3 +87,7 @@ Go through each of the seven stages of the framework to identify security requir
 ----
 
 <sup>1</sup> For the sake of brevity, the data diagram and attack tree have been truncated. In real-world scenarios, these diagrams are much more detailed and complex. 
+
+---
+
+<a href="#top" id="back-to-top">Back to top</a>

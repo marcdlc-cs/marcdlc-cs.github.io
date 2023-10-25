@@ -69,3 +69,6 @@ Analyze the situation using the NIST CSF and create an incident report, building
     </tr>
 </table>
 
+---
+
+<a href="#top" id="back-to-top">Back to top</a>

@@ -76,3 +76,7 @@ In the properties menu of the new rule, I select Block the connection and check 
 Finally, to enable the new rule, I right-click it and select Enable.
 
 ![](/assets/images/wf_coursera/wf_step5b.png)
+
+---
+
+<a href="#top" id="back-to-top">Back to top</a>

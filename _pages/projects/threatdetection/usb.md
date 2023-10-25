@@ -55,3 +55,7 @@ Security controls to mitigate USB baiting:
 
 *Managerial* - enforce a USB data handling policy that discourages employees from mixing personal and  professional data/files on the same device. Unknown portable file storage devices should be turned in to the cybersecurity team for analysis.
 
+---
+
+<a href="#top" id="back-to-top">Back to top</a>
+

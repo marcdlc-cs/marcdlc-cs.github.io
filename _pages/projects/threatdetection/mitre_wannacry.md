@@ -99,3 +99,7 @@ It highlighted the importance of regularly updating and patching software, parti
 ### Reflections
 
 The WannaCry ransomware attack was significant in emphasizing the critical importance of cybersecurity measures, particularly patch management and network segmentation. It exploited vulnerabilities in outdated systems, underlining the need for timely software updates and patching to prevent such attacks. Additionally, the rapid spread of WannaCry across networks underscored the necessity of network segmentation to contain and mitigate the impact of future cyber threats.
+
+---
+
+<a href="#top" id="back-to-top">Back to top</a>

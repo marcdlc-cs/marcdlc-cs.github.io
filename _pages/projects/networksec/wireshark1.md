@@ -74,3 +74,7 @@ Packet 1527 shows me the client request to the DNS server with the human-readabl
 Packet 1529 shows me the DNS server response with the IP address for testphp.vulnweb.com: 44.228.249.3
 
 ![](/assets/images/101_wireshark1/step11b.png)
+
+---
+
+<a href="#top" id="back-to-top">Back to top</a>

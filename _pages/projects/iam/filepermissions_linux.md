@@ -97,3 +97,7 @@ Terminal output:
 ### Summary
 
 To get an overview of the initial permissions of a user on the research team, I used the ```ls``` command and its appropriate options. By utilizing the ```ls``` and ```chmod``` commands throughout this task, I was able grant the correct authorizations to the user, thus strengthening the overall security posture of the organization. 
+
+---
+
+<a href="#top" id="back-to-top">Back to top</a>

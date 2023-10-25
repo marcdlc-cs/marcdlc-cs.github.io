@@ -138,3 +138,7 @@ Terminal output:
 ### Summary
 
 Using SQL, I was able to query the relevant databases to investigate suspicious login attempts and identify which employee machines need critical updates. Using the SELECT and FROM commands helped query the correct databases. Filtering using the WHERE keyword and the appropriate operators such as AND, OR, and NOT helped me narrow down the data and made my investigations much more efficient.
+
+---
+
+<a href="#top" id="back-to-top">Back to top</a>

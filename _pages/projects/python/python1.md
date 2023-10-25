@@ -144,3 +144,7 @@ With the ip_addresses list updated, I can now update the original file “allow_
 ### Summary
 
 Using this algorithm, I was able to update the file that contains all authorized IP addresses that are able to access the restricted subnetwork. The ```write``` statement, ```.open()``` and ```.read()``` function allowed me to access the contents of allow_list.txt and convert it into a string. After converting that string into a list using the ```.split()``` method, I was able to iterate over it and remove unauthorized IP addresses. Finally, the ```.join()``` method converts the list back into a string. Using ```with```, that string data was then used to update allow_list.txt.
+
+---
+
+<a href="#top" id="back-to-top">Back to top</a>
