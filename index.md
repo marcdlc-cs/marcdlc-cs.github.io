@@ -10,7 +10,9 @@ Each project is grouped into categories that roughly cover the vast domains of C
 
 <a href="https://www.credly.com/badges/1800b82f-7099-4fe1-8b44-832154f733ea/public_url" target="_blank"><img src="assets/images/sec+_logo.png"></a>
 
-### Recently added projects 👈(ﾟヮﾟ👈) 
+---
+
+### Recently added projects 👈(ﾟヮﾟ👈)
 - [PASTA Threat Modeling for a Sneaker App](/pasta_shoeapp)
 - [Capturing Credentials With Wireshark](/wireshark1)
 - [Analyzing Wannacry with ATT&CK](/wannacry)
