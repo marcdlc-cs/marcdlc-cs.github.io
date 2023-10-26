@@ -40,11 +40,11 @@ Assets managed by the IT Department include:
 
 ## Goals & Objectives
 Assist the IT manager by:
-<ol>
-    <li>Suggesting controls based on current company assets</li>
-    <li>Review the company's compliance with proper data regulations and standards</li>
-    <li>Communicate findings and recommendations clearly to IT manager and stakeholders in a stakeholder memorandum.</li>
-</ol>
+
+1. Suggesting controls based on current company assets
+2. Review the company's compliance with proper data regulations and standards
+3. Communicate findings and recommendations clearly to IT manager and stakeholders in a stakeholder memorandum
+
 
 ## Results
 ### Recommended Controls
