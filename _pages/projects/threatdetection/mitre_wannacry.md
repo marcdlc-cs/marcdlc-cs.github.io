@@ -31,9 +31,7 @@ The attackers behind WannaCry were financially motivated. Once the malware had s
 
 ### Method to gain initial access to systems
 
-It used the EternalBlue exploit, which targeted a vulnerability in Microsoft’s Server Message Block (SMB). Adversaries may use this technique in conjunction with administrator-level Valid Accounts to remotely access a networked system over SMB.
-
-Source: [https://attack.mitre.org/software/S0366/](https://attack.mitre.org/software/S0366/)
+[Wannacry](https://attack.mitre.org/software/S0366/) used the EternalBlue exploit, which targeted a vulnerability in Microsoft’s Server Message Block (SMB). Adversaries may use this technique in conjunction with administrator-level Valid Accounts to remotely access a networked system over SMB.
 
 ### Methods of persistence after initial infection
 
@@ -48,45 +46,26 @@ Value: <Full_path>\tasksche.exe
 ```
 Source: [https://www.mandiant.com/resources/blog/wannacry-malware-profile](https://www.mandiant.com/resources/blog/wannacry-malware-profile)
 
-Adversaries may achieve persistence by adding a program to a startup folder or referencing it with a Registry run key. Adding an entry to the "run keys" in the Registry or startup folder will cause the program referenced (WannaCry ransomware) to be executed when a user logs in. The ransomware will be executed upon system startup.
-
-Source: [https://attack.mitre.org/techniques/T1547/001](https://attack.mitre.org/techniques/T1547/001)
+| Technique | Description |
+| --- | --- |
+| [Registry Run Keys / Startup Folder](https://attack.mitre.org/techniques/T1547/001) | Adversaries may achieve persistence by adding a program to a startup folder or referencing it with a Registry run key. Adding an entry to the "run keys" in the Registry or startup folder will cause the program referenced (WannaCry ransomware) to be executed when a user logs in. The ransomware will be executed upon system startup. |
 
 ### Methods to avoid detection
 
-- Encrypted Channel: Asymmetric Cryptography
-
-WannaCry uses Tor for command and control traffic and routes a custom cryptographic protocol over the Tor circuit.
-
-Source: [https://attack.mitre.org/techniques/T1573/002](https://attack.mitre.org/techniques/T1573/002)
-
-- File and Directory Permissions Modification: Windows File and Directory Permissions Modification
-
-WannaCry uses attrib +h and icacls . /grant Everyone:F /T /C /Q to make some of its files hidden and grant all users full access controls.
-
-Source: [https://attack.mitre.org/techniques/T1222/001](https://attack.mitre.org/techniques/T1222/001)
-
-- Hide Artifacts: Hidden Files and Directories
-
-WannaCry uses attrib +h to make some of its files hidden and obscure any indicators of compromise.
-
-Source: [https://attack.mitre.org/techniques/T1564/001](https://attack.mitre.org/techniques/T1564/001)
+| Technique | Description |
+| --- | --- |
+| [Asymmetric Cryptography](https://attack.mitre.org/techniques/T1573/002) | WannaCry uses Tor for command and control traffic and routes a custom cryptographic protocol over the Tor circuit. |
+| [Windows File and Directory Permissions Modification](https://attack.mitre.org/techniques/T1222/001) | WannaCry uses attrib +h and icacls . /grant Everyone:F /T /C /Q to make some of its files hidden and grant all users full access controls. |
+| [Hidden Files and Directories](https://attack.mitre.org/techniques/T1564/001) | WannaCry uses attrib +h to make some of its files hidden and obscure any indicators of compromise. |
 
 ### Methods for device detection and lateral movement
 
-- Remote System Discovery
+| Technique | Description |
+| --- | --- |
+| [Remote System Discovery](https://attack.mitre.org/techniques/T1018) | WannaCry scans its local network segment for remote systems to try to exploit and copy itself to. |
+| [Lateral Tool Transfer](https://attack.mitre.org/techniques/T0867) | WannaCry can move laterally through industrial networks by means of the SMB service. |
 
-WannaCry scans its local network segment for remote systems to try to exploit and copy itself to.
-
-Source: [https://attack.mitre.org/techniques/T1018](https://attack.mitre.org/techniques/T1018/)
-
-- Lateral Tool Transfer
-
-WannaCry can move laterally through industrial networks by means of the SMB service.
-
-Source: [https://attack.mitre.org/techniques/T0867](https://attack.mitre.org/techniques/T0867)
-
-WannCry contains worm-like features to spread itself across a computer network. It can move laterally through industrial networks by means of the SMB service. It attempts to copy itself to remote computers after gaining access via an SMB exploit.
+**Additional notes**: WannCry contains worm-like features to spread itself across a computer network. It can move laterally through industrial networks by means of the SMB service. It attempts to copy itself to remote computers after gaining access via an SMB exploit.
 
 ### Attack Impact
 
