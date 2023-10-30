@@ -27,6 +27,7 @@ Identify the most critical vulnerability in this machine. Research this vulnerab
 ## Results
 
 ### Vulnerability Assessment
+
 #### Scan Results
 After scanning the vulnerable machine, Nessus identifies 39 vulnerabilites.
 
@@ -37,6 +38,8 @@ After scanning the vulnerable machine, Nessus identifies 39 vulnerabilites.
 The most critical vulnerability is the ProFTPD mod_copy Information Disclosure.
 
 ![](/assets/images/nessus1/vuln_proftpd.png)
+
+ProFTPd, a widely used open-source FTP server, is compatible with UNIX-like and Windows systems, particularly popular on UNIX-based platforms. However, a vulnerability affects all ProFTPd versions up to 1.3.6 (if installed before 7/17/19) in the mod_copy module. This flaw enables authenticated users, including anonymous users if enabled, to copy files to new names, even without the necessary write permissions. The issue arises from a bug in the SITE CPFR and SITE CPTO commands, which bypass "Limit WRITE" denyall directives and allow users to copy files to the current directory without proper permissions.
 <br>
 <br>
 #### Risks & Consequences
