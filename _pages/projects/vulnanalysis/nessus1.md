@@ -56,3 +56,7 @@ Due to the SITE CPFR and SITE CPTO commands, the attacker has the ability to rea
 <br>
 #### Mitigation strategy
 Nessus recommends upgrading to ProFTPD 1.3.5a / 1.3.6rc1 or later. In general, implementing strong access controls, updating and patching software, monitoring network traffic for suspicious activity, and staying updated on the latest vulnerabilities are possible ways to address this vulnerability.
+
+---
+
+<a href="#top" id="back-to-top">Back to top</a>
