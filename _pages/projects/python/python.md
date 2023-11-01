@@ -1,6 +1,6 @@
 ---
 title: Python
-nav_order: 8
+nav_order: 9
 permalink: /python
 has_children: true
 ---
