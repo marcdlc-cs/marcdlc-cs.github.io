@@ -57,7 +57,7 @@ New dashboard:
 ![](/assets/images/splunk1/step2c.png)
 <br>
 <br>
-### 📄 Task 2: Create pie chart showing the total number of each action made by shoppers
+### 📄 Task 2: Create a pie chart showing the total number of each action made by shoppers
 <br>
 **Step 1:**  In the SPL bar, I use the following command:
 
@@ -109,7 +109,7 @@ Final result:
 ![](/assets/images/splunk1/step4e.png)
 <br>
 <br>
-### 📄 Task 4: Create a  column chart showing the types of items customers purchased
+### 📄 Task 4: Create a column chart showing the types of items customers purchased
 <br>
 **Step 1:**  In the SPL bar, I use the following command:
 
@@ -129,7 +129,7 @@ index=web action=purchase
 
 ![](/assets/images/splunk1/step5a.png)
 
-**Step 2:**  To make the chart more comprehensive, I need to remove the "OTHER" category from the chart  (the tall purple bars). Since by default Splunk will only show the top 10 item descriptions, I need to include an argument that tells Splunk to show data for all item descriptions, not just the top 10.
+**Step 2:**  To make the chart more detailed, I need to remove the "OTHER" category from the chart  (the tall purple bars). Since by default Splunk will only show the top 10 item descriptions, I need to include an argument that tells Splunk to show data for all item descriptions, not just the top 10.
 
 I do this by adding the following arguments:
 
@@ -140,7 +140,7 @@ useother=f limit=0
 {: .note2 }
 >```useother=f``` tells Splunk not to use the OTHER category and removes it from the chart.
 >
->```limit=0``` tells Splunk not to set a limit on the number of item descriptions show in the chart
+>```limit=0``` tells Splunk not to set a limit on the number of item descriptions shown in the chart
 
 ![](/assets/images/splunk1/step5b.png)
 
