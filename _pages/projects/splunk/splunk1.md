@@ -69,7 +69,7 @@ index=web
 {: .note2 }
 >```| stats count by action``` will output a table that counts the number of events for each value of the action field.
 
-I choose to display the results a pie chart.
+I choose to display the results as a pie chart.
 
 ![](/assets/images/splunk1/step3a.png)
 
