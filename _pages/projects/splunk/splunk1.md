@@ -129,7 +129,7 @@ index=web action=purchase
 
 ![](/assets/images/splunk1/step5a.png)
 
-**Step 2:**  To make the chart more detailed, I need to remove the "OTHER" category from the chart  (the tall purple bars). Since by default Splunk will only show the top 10 item descriptions, I need to include an argument that tells Splunk to show data for all item descriptions, not just the top 10.
+**Step 2:**  To make the chart more detailed, I need to remove the "OTHER" category from the chart  (the tall purple bars). By default, Splunk will only show the top 10 item descriptions, so I need to include an argument that tells Splunk to show data for all item descriptions, not just the top 10.
 
 I do this by adding the following arguments:
 
