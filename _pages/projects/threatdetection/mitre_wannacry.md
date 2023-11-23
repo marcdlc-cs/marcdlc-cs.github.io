@@ -3,7 +3,7 @@ title: Analyzing WannaCry with ATT&CK
 permalink: /wannacry
 parent: Threat Detection & Analysis
 ---
-# Analyzing Wannacry with ATT&CK
+# Analyzing WannaCry with ATT&CK
 {: .no_toc }
 
 {: .note }
