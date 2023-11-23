@@ -1,5 +1,5 @@
 ---
-title: Analyzing Wannacry with ATT&CK
+title: Analyzing WannaCry with ATT&CK
 permalink: /wannacry
 parent: Threat Detection & Analysis
 ---
