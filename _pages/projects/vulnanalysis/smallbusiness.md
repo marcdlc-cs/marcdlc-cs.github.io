@@ -55,7 +55,7 @@ The purpose of this vulnerability assessment is to evaluate the risk of having o
 
 #### Approach
 {: .no_toc }
-The main vulnerability that must be addressed in this assessment is the public nature of the data servers. Data that is open to the public is at risk for misuse and exploitation by competitors and hackers. Competing businesses can extract sensitive information to gain insight on our business strategies and hackers can partially or completely destroy all the data on that server, disrupting mission-critical operations. Another minor vulnerability to consider is the physical server hardware. Hardware can breakdown and become obsolete over time which also puts the integrity of the data at risk.
+The main vulnerability that must be addressed in this assessment is the public nature of the data servers. Data that is open to the public is at risk for misuse and exploitation by competitors and hackers. Competing businesses can extract sensitive information to gain insight on our business strategies and hackers can partially or completely destroy all the data on that server, disrupting mission-critical operations. Another minor vulnerability to consider is the physical server hardware. Hardware can breakdown and become obsolete over time which also puts the integrity and availability of the data at risk.
 
 #### Remediation Strategy
 {: .no_toc }
