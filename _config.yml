@@ -5,7 +5,7 @@ theme: just-the-docs
 url: https://just-the-docs.github.io
 
 aux_links:
-  LinkedIn: https://linkedin.com/in/marcdlc
+  LinkedIn: 
 
 include: [_pages]
 
