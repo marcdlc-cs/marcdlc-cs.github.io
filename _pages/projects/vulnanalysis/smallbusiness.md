@@ -1,5 +1,5 @@
 ---
-title: Vulnerability Assessment for a Small Business
+title: 👁️ Vulnerability Assessment for a Small Business
 permalink: /vulnassess1
 parent: Vulnerability Analysis
 ---

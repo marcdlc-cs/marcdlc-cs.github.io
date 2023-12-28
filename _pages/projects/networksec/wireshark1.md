@@ -1,5 +1,5 @@
 ---
-title: Capturing Credentials With Wireshark
+title: 🛡️ Capturing Credentials With Wireshark
 permalink: /wireshark1
 parent: Network Security
 ---
