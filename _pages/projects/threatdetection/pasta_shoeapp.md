@@ -30,7 +30,7 @@ Go through each of the seven stages of the framework to identify security requir
     </tr>
     <tr>
         <td>1. Define business and security objectives</td>
-        <td>User data is being collected and store through the app. They want users to feel that data is being protected and kept private. Interaction between buyers and sellers should be easy with zero friction. Proper payment handling is important to avoid legal issues, so compliance with PCI DSS is critical.</td>
+        <td>User data is being collected and stored through the app. They want users to feel that data is being protected and kept private. Interaction between buyers and sellers should be easy with zero friction. Proper payment handling is important to avoid legal issues, so compliance with PCI DSS is critical.</td>
     </tr>
     <tr>
         <td>2. Define the technical scope</td>
