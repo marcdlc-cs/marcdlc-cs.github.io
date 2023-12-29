@@ -65,7 +65,7 @@ Source: [https://www.mandiant.com/resources/blog/wannacry-malware-profile](https
 | [Remote System Discovery](https://attack.mitre.org/techniques/T1018) | WannaCry scans its local network segment for remote systems to try to exploit and copy itself to. |
 | [Lateral Tool Transfer](https://attack.mitre.org/techniques/T0867) | WannaCry can move laterally through industrial networks by means of the SMB service. |
 
-**Additional notes**: WannCry contains worm-like features to spread itself across a computer network. It can move laterally through industrial networks by means of the SMB service. It attempts to copy itself to remote computers after gaining access via an SMB exploit.
+**Additional notes**: WannaCry contains worm-like features to spread itself across a computer network. It can move laterally through industrial networks by means of the SMB service. It attempts to copy itself to remote computers after gaining access via an SMB exploit.
 
 ### Attack Impact
 
