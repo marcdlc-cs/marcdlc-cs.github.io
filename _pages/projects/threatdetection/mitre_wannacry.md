@@ -31,7 +31,7 @@ The attackers behind WannaCry were financially motivated. Once the malware had s
 
 ### Method to gain initial access to systems
 
-[Wannacry](https://attack.mitre.org/software/S0366/) used the EternalBlue exploit, which targeted a vulnerability in Microsoft’s Server Message Block (SMB). Adversaries may use this technique in conjunction with administrator-level Valid Accounts to remotely access a networked system over SMB.
+[WannaCry](https://attack.mitre.org/software/S0366/) used the EternalBlue exploit, which targeted a vulnerability in Microsoft’s Server Message Block (SMB). Adversaries may use this technique in conjunction with administrator-level Valid Accounts to remotely access a networked system over SMB.
 
 ### Methods of persistence after initial infection
 
