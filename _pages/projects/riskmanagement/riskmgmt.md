@@ -5,4 +5,4 @@ permalink: /riskmgmt
 has_children: true
 ---
 
-Risk management projects are listed here!
+Risk management projects are listed here:

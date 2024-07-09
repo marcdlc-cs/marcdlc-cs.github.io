@@ -1,8 +1,8 @@
 ---
-title: Splunk
+title: SIEM Labs
 nav_order: 9
 permalink: /splunk
 has_children: true
 ---
 
-Splunk projects are listed here!
+SIEM projects are listed here:
