@@ -1,7 +1,7 @@
 ---
-title: Threat Detection & Analysis
+title: Threat Analysis
 nav_order: 3
-permalink: /threat_da
+permalink: /threat
 has_children: true
 ---
 
