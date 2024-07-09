@@ -9,7 +9,7 @@ Risk management involves identifying, assessing, and prioritizing potential secu
 
 - Risk Identification
 - Risk Assessment
-- Risk Mitigation:
+- Risk Mitigation
 - Risk Monitoring
 - Risk Communication
 
