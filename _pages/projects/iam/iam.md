@@ -1,6 +1,6 @@
 ---
 title: Identity & Access Mgmt
-nav_order: 7
+nav_order: 6
 permalink: /iam
 has_children: true
 ---

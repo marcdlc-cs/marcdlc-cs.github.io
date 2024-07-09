@@ -1,7 +1,7 @@
 ---
 title: SIEM Labs
-nav_order: 9
-permalink: /splunk
+nav_order: 10
+permalink: /siem
 has_children: true
 ---
 
