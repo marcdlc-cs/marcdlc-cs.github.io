@@ -1,9 +1,9 @@
 ---
-title: Configuring a DHCP Server
+title: Configuring SSH
 permalink: /ssh
 parent: Network Security
 ---
-# Configuring a DHCP Server
+# Configuring SSH
 {: .no_toc }
 
 {: .note }
