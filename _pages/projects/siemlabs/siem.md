@@ -1,5 +1,5 @@
 ---
-title: SIEM Labs
+title: 🗂️ SIEM Labs
 nav_order: 10
 permalink: /siem
 has_children: true

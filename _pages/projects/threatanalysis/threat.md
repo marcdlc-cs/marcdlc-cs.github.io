@@ -1,5 +1,5 @@
 ---
-title: Threat Analysis
+title: 💥 Threat Analysis
 nav_order: 3
 permalink: /threat
 has_children: true

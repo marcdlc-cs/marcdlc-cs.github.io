@@ -1,5 +1,5 @@
 ---
-title: Network Security
+title: 🔒 Network Security
 nav_order: 8
 permalink: /netsec
 has_children: true
