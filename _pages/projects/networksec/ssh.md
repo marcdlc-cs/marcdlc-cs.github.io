@@ -7,7 +7,7 @@ parent: Network Security
 {: .no_toc }
 
 {: .note }
-Networking Fundamentals, Configuration and Management, Documentation and Planning, Troubleshooting
+Network Security, Router Configuration, SSH Configuration, Encryption, Troubleshooting
 {: .fs-3 }
 
 #### Contents
