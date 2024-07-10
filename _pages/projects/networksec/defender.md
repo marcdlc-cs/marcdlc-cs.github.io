@@ -1,5 +1,5 @@
 ---
-title: Configure Windows Defender Firewall
+title: Windows Defender Firewall
 permalink: /defender
 parent: Network Security
 ---

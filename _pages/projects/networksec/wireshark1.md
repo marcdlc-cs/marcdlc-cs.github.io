@@ -1,9 +1,9 @@
 ---
-title: Capturing Credentials With Wireshark
+title: Exposed Login via Wireshark
 permalink: /wireshark1
 parent: Network Security
 ---
-# Capturing Credentials With Wireshark
+# Exposed Login via Wireshark
 {: .no_toc }
 
 {: .note }
