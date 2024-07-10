@@ -1,5 +1,5 @@
 ---
-title: 🛡️ Configure Windows Defender Firewall
+title: Configure Windows Defender Firewall
 permalink: /defender
 parent: Network Security
 ---
@@ -20,7 +20,7 @@ This is a guided project provided by Coursera called <a href="https://www.course
 
 See my <a href="https://www.coursera.org/account/accomplishments/certificate/DV4HA9GNXVK9" target="_blank">Certificate of Completion</a>.
 
-## Goals & Objectives
+## Objectives
 Configure firewall rules using Microsoft Windows Defender Firewall with Advanced Security:
 - Allow the connection for Key Management Service on the Domain and Private network
 - Deny the connection for Key Management Service on the Public network

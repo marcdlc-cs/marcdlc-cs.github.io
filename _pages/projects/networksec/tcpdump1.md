@@ -1,9 +1,9 @@
 ---
-title: 🛡️ Tcpdump Traffic Analysis
+title: tcpdump Traffic Analysis
 permalink: /tcpdump1
 parent: Network Security
 ---
-# Tcpdump Traffic Analysis
+# tcpdump Traffic Analysis
 {: .no_toc }
 
 {: .note }

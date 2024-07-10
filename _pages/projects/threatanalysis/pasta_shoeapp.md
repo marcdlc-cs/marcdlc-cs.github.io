@@ -1,7 +1,7 @@
 ---
 title: 🕵️‍♀️ PASTA Threat Modeling for a Sneaker App
 permalink: /pasta_shoeapp
-parent: Threat Detection & Analysis
+parent: Threat Analysis
 ---
 # PASTA Threat Modeling for a Sneaker App
 {: .no_toc }

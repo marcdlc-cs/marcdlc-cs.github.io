@@ -1,5 +1,5 @@
 ---
-title: 🛡️ Capturing Credentials With Wireshark
+title: Capturing Credentials With Wireshark
 permalink: /wireshark1
 parent: Network Security
 ---
@@ -18,7 +18,7 @@ Wireshark, Network Analysis, Network Protocols, Packet Filtering & Analysis, Kal
 ## Scenario
 In this lab, I will be using Wireshark to capture requests sent and received from my Kali machine. I will then analyze these requests for captured information.
 
-## Goals & Objectives
+## Objectives
 
 1. Examine the contents of packets to find important pieces of information.
 2. Use Wireshark to capture packets in order to find user credentional transmitted in cleartext through this website: http://testphp.vulnweb.com/login.php. This website is a *deliberately* vulnerable web application that is **used for educational and testing purposes**.
