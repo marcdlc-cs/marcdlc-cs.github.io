@@ -18,7 +18,7 @@ Network Analysis, Incident Response & Reporting, Protocol Analysis, Documentatio
 ## Scenario
 I'm a cybersecurity analyst working for an IT consultancy firm. Multiple customers reported being unable to access our website, www.yummyrecipesforme.com, and received a "destination port unreachable" error. I'm tasked with identifying the affected network protocol. I encountered the same error when visiting the site. I then used the tcpdump network analyzer tool and observed numerous packets. The analyzer revealed that sending UDP packets triggered an ICMP response with an error message: "udp port 53 unreachable." Now, I must determine the impacted network protocol and service and prepare a follow-up report. I can inspect network data to pinpoint the issue's cause, while security engineers are handling the incident after we've reported it to our supervisor.
 
-**Tcpdump Output**
+**tcpdump Output**
 ```
 13:24:32.192571 IP 192.51.100.15.52444 > 203.0.113.2.domain: 35084+ A? yummyrecipesforme.com. (24)
 13:24:36.098564 IP 203.0.113.2 > 192.51.100.15: ICMP 203.0.113.2 
@@ -33,7 +33,7 @@ udp port 53 unreachable length 320
 udp port 53 unreachable length 150
 ```
 
-## Goals & Objectives
+## Objectives
 Analyze the situation by:
 <ol>
     <li>Identifying which network protocol and service were impacted by this incident</li>

@@ -5,4 +5,4 @@ permalink: /netfund
 has_children: true
 ---
 
-Network Security projects are listed here!
+I will be listing basic network infrastructure projects here.
