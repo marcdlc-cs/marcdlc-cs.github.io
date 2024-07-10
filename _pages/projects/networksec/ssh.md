@@ -24,11 +24,11 @@ In this Packet Tracer Lab, I will enable SSH access between two Cisco router dev
 
 Telnet, another protocol for remote access, is the precursor to SSH. However, unlike SSH, it does not provide any of the security benefits of SSH and should not be used.
 
-Note: To keep this lab simple, weak passwords are used.
-
 This is the network topology I will be using:
 
 ![](/assets/images/101netplus/1_ssh/topology.png)
+
+Note: To keep this lab simple, weak passwords are used.
 
 ## Objectives
 
