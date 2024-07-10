@@ -61,7 +61,7 @@ This tells Router1 to forward all incoming traffic to 192.168.1.1, which is the 
 
 ### 📄 Task 4: Add PAT configuration to Router0
 
-I use the following Cisco IOS commands to configure PAT on the router:
+I use the following Cisco IOS commands to configure PAT on Router0:
 
 ![](/assets/images/101netplus/25_pat/R0_PAT_configuration.png)
 
