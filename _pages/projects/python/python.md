@@ -1,5 +1,5 @@
 ---
-title: Python
+title: 🐍 Python
 nav_order: 11
 permalink: /python
 has_children: true
