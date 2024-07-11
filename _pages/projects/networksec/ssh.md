@@ -16,7 +16,7 @@ Network Security, Router Configuration, SSH Configuration, Encryption, Troublesh
 {:toc}
 
 ## Scenario
-In this Packet Tracer Lab, I will enable SSH access between two Cisco router devices. SSH stands for Secure Shell. It's a protocol that allows for secure remote access and communication between two devices over a network. SSH is important in cybersecurity because it provides several key benefits:
+In this Packet Tracer lab, I will enable SSH access between two Cisco router devices. SSH stands for Secure Shell. It's a protocol that allows for secure remote access and communication between two devices over a network. SSH is important in cybersecurity because it provides several key benefits:
 
 - **Encryption**: SSH encrypts all data transmitted during a session, making it unreadable to anyone snooping on the network. This protects sensitive information like passwords and commands.
 - **Strong Authentication**: SSH offers multiple authentication methods, including passwords and public key cryptography. This makes it more difficult for unauthorized users to gain access to the system.
