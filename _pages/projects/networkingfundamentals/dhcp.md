@@ -1,7 +1,7 @@
 ---
 title: Configuring a DHCP Server
 permalink: /dhcp
-parent: Networking Fundamentals
+parent: 🌐 Networking Fundamentals
 ---
 # Configuring a DHCP Server
 {: .no_toc }
@@ -40,7 +40,7 @@ I configure a new IP address pool in the DHCP server starting with address 192.1
 ![](/assets/images/101netplus/5_dhcp/server_dhcp.png)
 
 <br>
-<br>
+
 ### 📄 Task 2: Configure the hosts to obtain information via DHCP
 
 For each host in the network, I configure them to receive IP information from the DHCP server. After a few seconds, the hosts receive an IP address and a subnet mask.
@@ -49,7 +49,7 @@ For each host in the network, I configure them to receive IP information from th
 ![](/assets/images/101netplus/5_dhcp/pc1_ipaddr.png)
 
 <br>
-<br>
+
 ### 📄 Task 3: Confirm hosts received IP information via DHCP
 
 I use the ```ipconfig``` command to confirm that each host has received IP information from the DHCP server.

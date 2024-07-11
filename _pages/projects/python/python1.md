@@ -1,7 +1,7 @@
 ---
-title: 🐍 Using Python for File Updates
+title: Using Python for File Updates
 permalink: /python1
-parent: Python
+parent: 🐍 Python
 ---
 # Using Python for File Updates
 {: .no_toc }

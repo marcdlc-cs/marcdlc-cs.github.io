@@ -1,7 +1,7 @@
 ---
 title: DDoS Attack Incident Report
 permalink: /ddosnist
-parent: Incident Response
+parent: 🚨 Incident Response
 ---
 # DDoS Attack Incident Report
 {: .no_toc }

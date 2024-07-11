@@ -1,7 +1,7 @@
 ---
 title: Configuring PAT
 permalink: /pat
-parent: Networking Fundamentals
+parent: 🌐 Networking Fundamentals
 ---
 # Configuring Port Address Translation
 {: .no_toc }

@@ -1,7 +1,7 @@
 ---
 title: Investigating Logins With SQL
 permalink: /sql
-parent: Incident Reponse
+parent: 🚨 Incident Response
 ---
 # Investigating Logins With SQL
 {: .no_toc }

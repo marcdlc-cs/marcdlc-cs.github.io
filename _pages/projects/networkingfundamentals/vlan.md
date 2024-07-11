@@ -1,7 +1,7 @@
 ---
 title: Configuring a VLAN
 permalink: /vlan
-parent: Networking Fundamentals
+parent: 🌐 Networking Fundamentals
 ---
 # Configuring a VLAN
 {: .no_toc }

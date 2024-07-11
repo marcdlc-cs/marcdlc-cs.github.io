@@ -1,7 +1,7 @@
 ---
 title: Configuring SSH
 permalink: /ssh
-parent: Network Security
+parent: 🔒 Network Security
 ---
 # Configuring SSH
 {: .no_toc }

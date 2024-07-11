@@ -1,7 +1,7 @@
 ---
 title: tcpdump Traffic Analysis
 permalink: /tcpdump1
-parent: Network Security
+parent: 🔒 Network Security
 ---
 # tcpdump Traffic Analysis
 {: .no_toc }

@@ -1,7 +1,7 @@
 ---
 title: Exposed Login via Wireshark
 permalink: /wireshark1
-parent: Network Security
+parent: 🔒 Network Security
 ---
 # Exposed Login via Wireshark
 {: .no_toc }
