@@ -75,6 +75,8 @@ Next, I configure a static route on Router1 so that all incoming traffic goes to
 
 ```R1(config)#ip route 0.0.0.0 0.0.0.0 192.168.1.1```
 
+Here are the results after using the ping command to test the static routes:
+
 ![](/assets/images/101netplus/28_eacl/R0_pingtest.png)
 ![](/assets/images/101netplus/28_eacl/R1_pingtest.png)
 
