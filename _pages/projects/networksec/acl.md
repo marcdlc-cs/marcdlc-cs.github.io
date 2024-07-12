@@ -1,6 +1,6 @@
 ---
 title: Configure Access Control Lists
-permalink: /disableserv
+permalink: /eacl
 parent: 🔒 Network Security
 ---
 # Configure Access Control Lists
