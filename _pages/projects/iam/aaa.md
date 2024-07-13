@@ -16,11 +16,9 @@ Network Security, Network Configuration and Management, Identity & Access Manage
 {:toc}
 
 ## Scenario
-In this Packet Tracer lab, I will configure authentication and authorization for services within an enterprise network. These services include a RADIUS AAA server, wireless network access, email, and FTP services. 
+In this Packet Tracer lab, I will configure authentication and authorization for services within an enterprise network. These services include a RADIUS (Remote Authentication Dial-In User Service) server, wireless network access, email, and FTP services. 
 
 Authentication and authorization are distinct security processes in the world of identity and access management (IAM). Authentication uses passwords and other identification methods to confirm that users are who they say they are. By contrast, authorization assigns user permissions to the resources that the user is allowed access. 
-
-This configuration will take place on a AAA (Authentication, Authorization, and Accounting) RADIUS (Remote Authentication Dial-In User Service) server. 
 
 Here is an isometric view of the physical office where user endpoints are located:
 
@@ -35,14 +33,14 @@ Note: To keep this lab simple, the passwords for each user account are intention
 3. Activate email services and configure email user accounts
 4. Configure the email clients on each employees’s computer
 5. Send a test email from PC 1-1
-6. Activate the FTP service and conigure FTP user accounts
+6. Activate the FTP service and configure FTP user accounts
 7. Test FTP server connectivity
 8. Verify FTP user privileges are working as configured
 
 ## Results
 ### 📄 Task 1: Set the IP configuration for the hosts
 
-In the wiring closet, I head into the interface of the AAA server. In the configuration panel, I make sure the AAA service is turned on, and then I set up two user accounts with the following credentials:
+In the wiring closet, I head into the configuration panel of the RADIUS server. I make sure the AAA service is turned on, and then I set up two user accounts with the following credentials:
 
 user1:PASSuser1!
 
@@ -54,7 +52,7 @@ user2:PASSuser2!
 
 ### 📄 Task 2: Set up user credentials on employee laptops
 
-Back in the main building, User1 and User2 need to be able to access the wireless network through their laptops. In the wireless configuration panel for each of their laptops, I set up the following:
+Back in the main building, user1 and user2 need to be able to access the wireless network through their laptops. In the wireless configuration panel for each of their laptops, I set up the following:
 
 - SSID: HQ-INT
 - Authentication: WPA2
@@ -63,13 +61,13 @@ Back in the main building, User1 and User2 need to be able to access the wireles
 
 ![](/assets/images/101netplus/aaa_radius/step2.png)
 
-After a few minutes the DHCP server assigns the IP address 192.168.50.4 to HQ-Laptop1 and IP address 192.168.50.2 to HQ-Laptop-2.
+From now, when user1 and user2 join the wireless network, they are authenticated through the RADIUS server.
 
 <br>
 
 ### 📄 Task 3: Activate email services and configure email user accounts
 
-Back in the wiring closet, I access the email server and navigate to the email configuration panel. I make sure that the SMTP and POP3 services are turned on. I setup the email domain to: mail.cyberhq.com. I then setup the following usernames and passwords:
+Back in the wiring closet, I access the email server and navigate to the email configuration panel. I make sure that the SMTP and POP3 services are turned on. I set the email domain to: mail.cyberhq.com and configure the following usernames and passwords:
 
 - HQuser1:Cisco123!
 - HQuser2:Cisco123~
@@ -95,13 +93,13 @@ Next, I go to each user’s computer and configure their email clients so they c
 
 ![](/assets/images/101netplus/aaa_radius/step4.png)
 
-I similarly setup the email clients on three additional employee computers.
+I similarly set up email clients on three additional employee computers.
 
 <br>
 
 ### 📄 Task 5: Send a test email from PC 1-1
 
-To confirm that the email clients were setup properly, I send a test email from Suk-Yi’s (HQUser1) computer to another user’s computer (Ajulo) at BRuser1@mail.cyberhq.com. 
+To confirm that the email clients were set up properly, I send a test email from Suk-Yi’s (HQUser1) computer to another user’s computer (Ajulo) at BRuser1@mail.cyberhq.com. 
 
 ![](/assets/images/101netplus/aaa_radius/testemail.png)
 
@@ -109,9 +107,9 @@ Ajulo uses PC 2-3 and I can see that the email from Suk-Yi has been successfully
 
 <br>
 
-### 📄 Task 6: Activate the FTP service and conigure FTP user accounts
+### 📄 Task 6: Activate the FTP service and configure FTP user accounts
 
-Back in the wiring closet, I go to the FTP server and navigate the configuration panel. I make sure the FTP service is turned on and I configure the following FTP user accounts, passwords and user privileges:
+Back in the wiring closet, I head into the configuration panel of the FTP server. I make sure the FTP service is turned on and I configure the following FTP user accounts, passwords and user privileges:
 
 - Sukyi:cisco123, RWDNL
 - Ajulo:cisco321, RWDNL
@@ -129,11 +127,11 @@ FTP (File Transfer Protocol) is a standard network protocol used to transfer fil
 
 ### 📄 Task 7: Test FTP server connectivity
 
-To check if I have setup the FTP server properly, I will attempt to download a test file from the FTP server onto Suk-Yi’s computer. From the network administrator’s computer, I connect to the FTP server using the following command:
+To verify that I have set up the FTP server properly, I will attempt to download a test file from the FTP server onto Suk-Yi’s computer. From the network administrator’s computer, I connect to the FTP server using the following command:
 
 ```ftp 192.168.75.2```
 
-I then login with Suk-Yi’s credentials. I list the files on the FTP server using the dir command. I locate a file called "aMessage.txt" and download it onto Suk-Yi’s computer using the get command.
+I then login with Suk-Yi’s credentials. I list the files on the FTP server using the ```dir``` command. I locate a file called "aMessage.txt" and download it onto Suk-Yi’s computer using the ```get```command.
 
 ![](/assets/images/101netplus/aaa_radius/ftp_test_complete.png)
 
@@ -141,7 +139,7 @@ I then login with Suk-Yi’s credentials. I list the files on the FTP server usi
 
 ### 📄 Task 8: Verify FTP user privileges are working as configured
 
-To test if I setup the user privleges on the FTP server properly, I will login using Malia’s account to see if I can delete and rename files. 
+To test Malia's user privleges on the FTP server, I will login using Malia’s account to see if I can delete and rename files. 
 
 First, I  login to the FTP server (192.168.75.2) with Malia’s login credentials. I attempt to delete the aMessage.txt file, but I am unsuccessful. Next, I try to rename aMessage.txt to aMessage_rename.txt and I am successful.
 

@@ -7,7 +7,7 @@ parent: 🔧 Network Troubleshooting
 {: .no_toc }
 
 {: .note }
-Network Security, Router Configuration, Access Management, Troubleshooting
+Switch Configuration, Access Management, Troubleshooting
 {: .fs-3 }
 
 #### Contents
