@@ -26,7 +26,7 @@ This is the network topology I will be using:
 
 1. Confirm connectivity between the router and server
 2. Create a DHCP address pool
-3. Attempt DHCP discover on PC0
+3. Attempt DHCP discovery on PC0
 4. Configure the router as DHCP relay agent
 5. Configure PC0 to receive IP addressing from the DHCP server
 
