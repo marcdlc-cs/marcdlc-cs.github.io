@@ -16,9 +16,11 @@ Network Security, Network Monitoring and Analysis, Network Configuration and Man
 {:toc}
 
 ## Scenario
-In this Packet Tracer lab, I will be identifying a rogue DHCP server in the network. A network sniffer device helps to identify the rogue server. To resolve this issue, I will enable DHCP snooping on the switch so that it only accepts DHCP traffic from the legitimate DHCP server and not the rogue server. Rogue DHCP servers can be used for malicious purposes, such as intercepting or redirecting network traffic, launching on-path attacks, or spreading malware.
+In this Packet Tracer lab, I will be identifying a rogue DHCP server in the network. Rogue DHCP servers can be used for malicious purposes, such as intercepting or redirecting network traffic, launching on-path attacks, or spreading malware. 
 
-DHCP snooping is a security feature that filters and monitors DHCP messages, allowing only legitimate DHCP server responses and dropping any unauthorized or malicious DHCP traffic.
+To resolve this issue, I will enable DHCP snooping on the switch so that it only accepts DHCP traffic from the authorized DHCP server and not the rogue server. DHCP snooping is a security feature that filters and monitors DHCP messages, allowing only legitimate DHCP server responses and dropping any unauthorized or malicious DHCP traffic.
+
+Also, a network sniffer device helps to identify the rogue server.
 
 This is the network topology I will be using:
 
