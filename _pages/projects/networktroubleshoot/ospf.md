@@ -54,8 +54,7 @@ To check OSPF functionality, I will be issuing the ```show ip ospf neighbor``` c
 ![](/assets/images/101netplus/97_ospf/R1_show_noneighbor.png)
 
 
-As expected, the command returns no output, which means no neighbors have been identified (due to the incorrect network configuration). 
-As expected, the command returns no output, which means no neighbors have been identified (due to the incorrect network configuration). 
+As expected, the command returns no output, which means no neighbors have been identified (due to the incorrect network configuration).
 
 <br>
 
