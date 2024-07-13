@@ -1,6 +1,6 @@
 ---
-title: Configuring a RADIUS Server
-permalink: /radius
+title: Configuring AAA
+permalink: /aaa
 parent: 🗝️ Identity & Access Mgmt
 ---
 # Configuring a RADIUS Server
@@ -16,7 +16,7 @@ Network Security, Network Configuration and Management, Identity & Access Manage
 {:toc}
 
 ## Scenario
-In this Packet Tracer lab, I will configure authentication and authorization for services within an enterprise network. These services include wireless network access, email, and FTP services. 
+In this Packet Tracer lab, I will configure authentication and authorization for services within an enterprise network. These services include a RADIUS AAA server, wireless network access, email, and FTP services. 
 
 Authentication and authorization are distinct security processes in the world of identity and access management (IAM). Authentication uses passwords and other identification methods to confirm that users are who they say they are. By contrast, authorization assigns user permissions to the resources that the user is allowed access. 
 
