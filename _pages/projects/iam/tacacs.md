@@ -1,7 +1,7 @@
 ---
 title: Configuring a TACACS+ Server
 permalink: /tacacs
-parent: 🔒 Network Security
+parent: 🗝️ Identity & Access Mgmt
 ---
 # Configuring a TACACS+ Server
 {: .no_toc }
