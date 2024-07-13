@@ -59,7 +59,7 @@ Below is a graphical depiction of the DHCP discover packet (the yellow envelope)
 
 ![](/assets/images/101netplus/101_unresponsedhcp/router_blockDHCPdiscover.png)
 
-When DHCP discovery fails, PC0 assigns itself with an APIPA address starting with 168.254.x.x. Automatic Private IP Addressing (APIPA) allows devices on a local network to automatically assign themselves an IP address when a DHCP server is unavailable, ensuring basic network communication within the local subnet.
+When DHCP discovery fails, PC0 assigns itself with an APIPA address starting with 169.254.x.x. Automatic Private IP Addressing (APIPA) allows devices on a local network to automatically assign themselves an IP address when a DHCP server is unavailable, ensuring basic network communication within the local subnet.
 
 However, there are limitations to APIPA which include:
 
