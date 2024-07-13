@@ -74,7 +74,7 @@ To resolve the issue, I will configure the router to forward DHCP requests to th
 
 ![](/assets/images/101netplus/101_unresponsedhcp/router_helper.png)
 
-With this configuration, the router will forward DHCP Discover packet to the DHCP server (172.16.1.2).
+With this configuration, the router will forward DHCP Discover packets to the DHCP server (172.16.1.2).
 
 <br>
 
