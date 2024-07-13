@@ -3,7 +3,7 @@ title: Configuring AAA
 permalink: /aaa
 parent: 🗝️ Identity & Access Mgmt
 ---
-# Configuring a RADIUS Server
+# Configuring AAA
 {: .no_toc }
 
 {: .note }
