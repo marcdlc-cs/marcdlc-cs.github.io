@@ -3,7 +3,7 @@ title: Unresponsive DHCP Server
 permalink: /unresponsedhcp
 parent: 🔧 Network Troubleshooting
 ---
-# Troubleshooting an Unresponse DHCP Server
+# Troubleshooting an Unresponsive DHCP Server
 {: .no_toc }
 
 {: .note }
