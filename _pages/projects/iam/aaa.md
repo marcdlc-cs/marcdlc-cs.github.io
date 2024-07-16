@@ -16,7 +16,7 @@ Network Security, Network Configuration and Management, Identity & Access Manage
 {:toc}
 
 ## Scenario
-In this Packet Tracer lab, I will configure authentication and authorization for services within an enterprise network. These services include a RADIUS (Remote Authentication Dial-In User Service) server, wireless network access, email, and FTP services. 
+In this Packet Tracer lab, I will configure AAA (authentication, authorization, and accounting) services within an enterprise network. These services include a RADIUS (Remote Authentication Dial-In User Service) server, wireless network access, email, and FTP services. 
 
 Authentication and authorization are distinct security processes in the world of identity and access management (IAM). Authentication uses passwords and other identification methods to confirm that users are who they say they are. By contrast, authorization assigns user permissions to the resources that the user is allowed access. 
 
