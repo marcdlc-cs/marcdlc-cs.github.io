@@ -1,5 +1,5 @@
 ---
-title: Configuring Access Control Lists
+title: Configuring ACLs
 permalink: /eacl
 parent: 🔒 Network Security
 ---
