@@ -1,9 +1,9 @@
 ---
-title: Configure Access Control Lists
+title: Configuring Access Control Lists
 permalink: /eacl
 parent: 🔒 Network Security
 ---
-# Configure Access Control Lists
+# Configuring Access Control Lists
 {: .no_toc }
 
 {: .note }
