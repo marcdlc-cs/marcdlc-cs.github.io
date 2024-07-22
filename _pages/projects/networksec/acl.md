@@ -16,7 +16,7 @@ Network Security, Router Configuration, Access Management, Troubleshooting
 {:toc}
 
 ## Scenario
-In this Packet Tracer lab, I will configure an extended access control list (ACL) on a router. ACLs are a series of rules applied to a router’s interface which determine if traffic is allowed into or blocked from your network. These rules are used to permit or deny traffic based on various criteria such as IP addresses, protocol types, and port numbers.
+In this Packet Tracer lab, I will configure an extended access control list (ACL) on a router. ACLs are a series of rules applied to a router’s interface which determine if traffic is allowed into or blocked from a network. These rules are used to permit or deny traffic based on various criteria such as IP addresses, protocol types, and port numbers.
 
 ACLs help filter harmful traffic from entering or leaving a network, enforces access control policies, and creates network segments that can isolate and contain network breaches.
 
