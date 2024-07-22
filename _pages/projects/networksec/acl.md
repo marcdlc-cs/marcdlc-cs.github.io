@@ -28,7 +28,7 @@ This is the network topology I will be using:
 
 1. Set the IP configuration for the hosts
 2. Set the IP configuration for the routers
-3. Add static routes to both routers
+3. Add static routes on both routers
 4. Configure an ACL on Router0
 5. Test the ACL
 
@@ -63,7 +63,7 @@ Router (R1)
 
 <br>
 
-### 📄 Task 3: Add static routes to both routers
+### 📄 Task 3: Add static routes on both routers
 
 I will configure static routes on both routers so that each router can reach the network on the other side. Then I will test connectivity with the ping command. 
 
