@@ -18,7 +18,7 @@ Digital Forensics, Risk Assessment & Mitigation, Threat Analysis
 ## Scenario
 I am part of the security team at Rhetorical Hospital and arrive to work one morning. On the ground of the parking lot, I find a USB stick with the hospital's logo printed on it. There’s no one else around who might have dropped it, so I decide to pick it up out of curiosity.
 
-I bring the USB drive back to my office where the team has virtualization software installed on a workstation, allowing me to safely examine its contents.
+I bring the USB drive back to my office where the team has virtualization software installed on a workstation, allowing me to safely examine its contents:
 
 ![](/assets/images/usbcontents_crop.png)
 
