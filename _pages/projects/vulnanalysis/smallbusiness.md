@@ -18,7 +18,7 @@ Vulnerability Assessment, Risk Assessment, Threat Analysis, Report Writing, Risk
 ## Scenario
 I've recently joined an e-commerce company as a cybersecurity analyst. The company relies on a remote database server to store information, as many of our employees work from various locations worldwide. This server is accessible to the public and has been open since the company's inception three years ago. As a cybersecurity expert, I understand the criticality of this situation, as it poses a significant security risk.
 
-## Goals & Objectives
+## Objectives
 Conduct a vulnerability assessment for a small business, evaluating the risks of a vulnerable information system and outline a remediation plan
 
 ## Results

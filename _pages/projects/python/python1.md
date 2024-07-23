@@ -20,7 +20,7 @@ I'm a cybersecurity professional at a healthcare company. My role involves regul
 
 My project entails developing a Python algorithm to check whether the allow list includes any IP addresses found on the remove list. If such IPs are present, I must remove them from the allow list file.
 
-## Goals & Objectives
+## Objectives
 Create an algorithm that uses Python code to check whether the allow list contains any IP addresses identified on the remove list. If so, you should remove those IP addresses from the allow list file.
 
 ## Results

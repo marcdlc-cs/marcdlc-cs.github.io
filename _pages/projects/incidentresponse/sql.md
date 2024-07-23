@@ -18,7 +18,7 @@ Incident Investigation, Data Analysis, Security Event Monitoring, Basic SQL Prof
 ## Scenario
 I work as a security professional at a large organization where I investigate security concerns to ensure system safety. Lately, I've come across potential security problems related to login attempts and employee devices. My task involves analyzing data within the employees and log_in_attempts tables. To do this, I'll utilize SQL filters to extract information from various datasets, enabling me to delve into the possible security threats.
 
-## Goals & Objectives
+## Objectives
 Use SQL filters to retrieve records from different datasets and investigate the potential security issues
 
 ## Results

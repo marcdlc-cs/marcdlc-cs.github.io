@@ -22,7 +22,7 @@ During the attack, our network services suddenly became unresponsive due to a ma
 
 Subsequently, our cybersecurity team conducted an investigation into the security incident. We discovered that a malicious actor had flooded our network with ICMP pings through an unconfigured firewall, exploiting this vulnerability to launch a distributed denial of service (DDoS) attack that disrupted our operations.
 
-## Goals & Objectives
+## Objectives
 Analyze the situation using the NIST CSF and create an incident report, building trust and improving security practices within the company. 
 
 ## Results

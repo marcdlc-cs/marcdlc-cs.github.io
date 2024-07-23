@@ -18,7 +18,7 @@ OWASP Top 10, PASTA Framework, Threat Modeling, App Security Assessment, Risk Mi
 ## Scenario
 I am part of the growing security team at a company for sneaker enthusiasts and collectors. The business is preparing to launch a mobile app that makes it easy for their customers to buy and sell shoes. I am performing a threat model of the application using the PASTA framework.
 
-## Goals & Objectives
+## Objectives
 Go through each of the seven stages of the framework to identify security requirements for the new sneaker company app.
 
 ## Results

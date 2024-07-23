@@ -18,7 +18,7 @@ Splunk, SPL, Dashboards, Data Analytics, SIEM tools
 ## Scenario
 In this project, I'll be creating a Splunk dashboard for a Sporting Goods store. The dashboard will have visualizations that detail the types of actions shoppers are taking in the store (purchasing, viewing items, adding to cart) and information about items purchased over a one week period. I will be using mock data that I've added to Splunk.
 
-## Goals & Objectives
+## Objectives
 
 Create a dashboard with the following visualizations:
 1. A column chart showing actions made by shoppers each day

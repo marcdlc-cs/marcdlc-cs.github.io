@@ -5,4 +5,4 @@ permalink: /threat
 has_children: true
 ---
 
-Threat detection and analysis projects are listed here!
+Threat analysis projects are listed here!

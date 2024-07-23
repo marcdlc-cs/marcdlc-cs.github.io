@@ -22,7 +22,7 @@ I bring the USB drive back to my office where the team has virtualization softwa
 
 ![](/assets/images/usbcontents_crop.png)
 
-## Goals & Objectives
+## Objectives
 Assess the attack vectors of a USB drive by describing its contents, the attacker's mindset (if this is a USB baiting attack), and analyzing the risks involved.
 
 ## Results

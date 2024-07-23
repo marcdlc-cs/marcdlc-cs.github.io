@@ -38,7 +38,7 @@ Assets managed by the IT Department include:
 - Legacy system maintenance: end-of-life systems that require human monitoring 
 </details>
 
-## Goals & Objectives
+## Objectives
 Assist the IT manager by:
 
 1. Suggesting controls based on current company assets

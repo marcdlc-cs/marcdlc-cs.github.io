@@ -21,7 +21,7 @@ The project allows me to familiarize myself with Nessus, a widely-used vulnerabi
 Initiating new scan:
 ![](/assets/images/nessus1/scansetup.png)
 
-## Goals & Objectives
+## Objectives
 Identify the most critical vulnerability in this machine. Research this vulnerability using reliable sources such as security advisories or vulnerability databases.
 
 ## Results

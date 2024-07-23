@@ -18,7 +18,7 @@ MITRE ATT&CK, Threat Analysis, Malware Analysis, OSINT, Documentation
 ## Scenario
 I will conduct an in-depth analysis of the 2017 WannaCry ransomware attack by discovering the attacker's tactics, techniques, and procedures using the MITRE ATT&CK framework.
 
-## Goals & Objectives
+## Objectives
 Gain a comprehensive understanding of how the attackers behind WannaCry utilized various techniques and tactics, mapping them to the relevant ATT&CK framework components.
 
 ## Results
