@@ -5,13 +5,6 @@ nav_order: 1
 ---
 
 # Hey, I'm <a href="https://www.linkedin.com/in/marcdlc/" target="_blank">Marc De La Cruz</a>!
- In this portfolio I'll document all my adventures in the world of Cybersecurity. You'll find a list of projects that showcase the knowledge I've gained and the nifty skills I've picked up along the way. Over time, older projects will be replaced by more advanced ones, making it a constantly evolving platform recording my growth as I level-up my skills and abilities.
+ In this portfolio I'll document all my adventures in the world of Cybersecurity. You'll find a list of projects that showcase the knowledge I've gained and the skills I've picked up along the way. Over time, older projects will be replaced by more advanced ones, making it a constantly evolving platform recording my growth as I level-up my skills and abilities.
 
-Each project is grouped into categories that roughly cover the vast domains of Cybersecurity. They all follow a simple format: the skills I demonstrate, the project scenario, goals and objectives, and the results I achieved. These projects come from a variety of sources, most of which are from certificate programs I've already completed such as Coursera's <a href="https://www.credly.com/badges/2dd1e480-11bc-4096-ad6f-8760fb1b0fb4/public_url" target="_blank">Google Cybersecurity Program</a> and Correlation One's <a href="https://www.credential.net/ea8c2364-f3a0-4afb-8bef-2bdbcf2a520b#gs.22v02z" target="_blank">Cybersecurity For All</a> training program. 
-<br>
-<br>
-
-### Recently added projects 
-- [PASTA Threat Modeling for a Sneaker App](/pasta_shoeapp) 🆕✨
-- [Analyzing WannaCry with ATT&CK](/wannacry) 🆕✨
-- [Upgrading to Meterpreter Shell Using Metasploit](/metasploit1) 🆕✨
+Each project is grouped into categories that roughly cover the vast domains of Cybersecurity. They all follow a simple format: the skills I demonstrate, the project scenario, objectives, and the results I achieved. Thanks for taking the time to check out my portfolio!
