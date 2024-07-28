@@ -28,7 +28,7 @@ This is the network topology I will be using:
 
 1. Issue the ```show cdp neighbors``` command
 2. Add an IP address to Router1
-3. Disable CDP and Telnet/SSH Router1
+3. Disable CDP and Telnet/SSH on Router0
 4. Shutdown unused switch port F0/3
 
 ## Results
@@ -58,7 +58,7 @@ While CDP is useful for network management and troubleshooting, it can also be e
 
 <br>
 
-### 📄 Task 3: Disable CDP and Telnet/SSH Router1
+### 📄 Task 3: Disable CDP and Telnet/SSH on Router0
 
 In order to disable CDP, I issue the ```no cdp run``` command. And just in case, I also disable remote access to Router0 by removing Telnet and SSH using the ```transport input none``` command.
 
