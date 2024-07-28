@@ -1,6 +1,6 @@
 ---
 title: Disable Unused Services/Ports
-permalink: /acl
+permalink: /disableserv
 parent: 🔒 Network Security
 ---
 # Disable Unused Services and Ports
@@ -34,7 +34,7 @@ This is the network topology I will be using:
 ## Results
 ### 📄 Task 1: Issue the ```show cdp neighbors``` command
 
-Issuing the ```show cdp neighbors``` command along with the "show cdp neighbors command" reveals information about nearby network devices such as the type of device, which of its interfaces are active, and the version of Cisco IOS that it is running. This type of information can aid threat actors in gaining access to a network. 
+Issuing the ```show cdp neighbors``` command along with the ```show cdp neighbors command``` reveals information about nearby network devices such as the type of device, which of its interfaces are active, and the version of Cisco IOS that it is running. This type of information can aid threat actors in gaining access to a network. 
 
 ![](/assets/images/101netplus/7475_disable/R0_showcdp.png)
 
