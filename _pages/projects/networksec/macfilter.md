@@ -28,7 +28,7 @@ This is the network topology I will be using:
 
 1. Configure IP addresses on the hosts
 2. Configure MAC address filtering on the switch
-3. Perform a ping test to trigger mac filtering
+3. Perform a ping test to trigger MAC filtering
 4. Check that the switch port has shut down
 
 ## Results
@@ -53,7 +53,7 @@ Issuing the ```show port-security``` command on the switch confirms that port se
 
 <br>
 
-### 📄 Task 3: Perform a ping test to trigger mac filtering
+### 📄 Task 3: Perform a ping test to trigger MAC filtering
 
 PC0 will ping PC1. This will trigger the switch port to shut down as it violates the MAC filtering rule. The switch sees that traffic is coming from PC0 which does not match the MAC address of PC1, forcing it to shut down the its port.
 
