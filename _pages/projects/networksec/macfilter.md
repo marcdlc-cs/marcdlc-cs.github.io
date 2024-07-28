@@ -16,58 +16,56 @@ Network Security, Wireless Networking, Router Configuration, Encryption, Authent
 {:toc}
 
 ## Scenario
-In this Packet Tracer lab, I will be configuring WPA2 and AES on a wireless access point (WAP). WPA2 (Wi-Fi Protected Access 2) and AES (Advanced Encryption Standard) are security protocols used in wireless computer networking to protect data transmitted over Wi-Fi networks. WPA2 is a security protocol that can use AES as its encryption standard.
+In this Packet Tracer lab, I will be configuring MAC filtering on a switch. In this case, MAC filtering will be used to limit the amount of MAC addresses that can be learned a single port. I will be configuring the switch port to only learn a single, specific MAC address. If this rule is violated, the switch will shut down the port. 
+
+MAC filtering prevents unauthorized devices from connecting to the network. This ensures that only trusted devices can access network resources. MAC filtering can also help mitigate on-path attacks by ensuring that only devices with known MAC addresses can connect to the network. This reduces the risk of attackers inserting themselves between legitimate devices and the network.
 
 This is the network topology I will be using:
 
-![](/assets/images/101netplus/71_wpa2aes/topology.png)
+![](/assets/images/101netplus/72_macfilter/topology.png)
 
 ## Objectives
 
-1. Configure IP address 192.168.1.1 on the router interface
-2. Set the security and wireless settings on the WAP
-3. Configure the wireless card settings on the laptop
-4. Add the default gateway to the laptop
-5. Ping the router from the laptop
+1. Configure IP addresses on the hosts
+2. Configure MAC address filtering on the switch
+3. Perform a ping test to trigger mac filtering
+4. Check that the switch port has shut down
 
 ## Results
-### 📄 Task 1: Configure IP address 192.168.1.1 on the router interface
+### 📄 Task 1: Configure IP address on the hosts
 
-![](/assets/images/101netplus/71_wpa2aes/router_ipconfig.png)
+The hosts PC0 and PC1 will be given the IP addresses 192.168.1.1 and 192.168.1.2. Note the MAC address of PC1, as it will be used in the MAC filtering for the switch. The MAC address for PC1 is 000C.85D9.8EC3.
 
-Interface G0/0 will be assigned the IP address 192.168.1.1. This interface will also serve as the default gateway.
-
-<br>
-
-### 📄 Task 2: Set the security and wireless settings on the WAP
-
-On the WAP, the SSID, pass phrase, authentication method (WPA2), and encryption method (AES) will be set.
-
-![](/assets/images/101netplus/71_wpa2aes/wap_wireless_settings.png)
+![](/assets/images/101netplus/72_macfilter/PC0_ipconfig.png)
+![](/assets/images/101netplus/72_macfilter/PC1_ipconfig.png)
 
 <br>
 
-### 📄 Task 3: Configure the wireless card settings on the laptop
+### 📄 Task 2: Configure MAC address filtering on the switch
 
-The wireless card settings on the laptop will match the security and wireless settings of the WAP. If they do not match, the laptop and WAP will not be able to authenticate or communicate with each other.
+I configure MAC address 000C.85D9.8EC3 as the only MAC address that the port can learn.
 
-![](/assets/images/101netplus/71_wpa2aes/laptop_wireless_settings.png)
+![](/assets/images/101netplus/72_macfilter/switch_confmacaddress_pc1.png)
 
-<br>
+Issuing the ```show port-security``` command on the switch confirms that port security and MAC filtering is enabled:
 
-### 📄 Task 4: Add the default gateway to the laptop
-
-The laptop is assigned the IP address 192.168.1.2. The default gateway is 192.168.1.1.
-
-![](/assets/images/101netplus/71_wpa2aes/laptop_ipconfig.png)
+![](/assets/images/101netplus/72_macfilter/switch_showportsec.png)
 
 <br>
 
-### 📄 Task 5: Ping the router from the laptop
+### 📄 Task 3: Perform a ping test to trigger mac filtering
 
-To test wireless connectivity, I ping the router from the laptop. 
+PC0 will ping PC1. This will trigger the switch port to shut down as it violates the MAC filtering rule. The switch sees that traffic is coming from PC0 which does not match the MAC address of PC1, forcing it to shut down the its port.
 
-![](/assets/images/101netplus/71_wpa2aes/laptop_routerping.png)
+![](/assets/images/101netplus/72_macfilter/PC0_pingPC1.png)
+
+<br>
+
+### 📄 Task 4: Check that the switch port has shut down
+
+![](/assets/images/101netplus/72_macfilter/switch_portsec_shutdown.png)
+
+Observe that the Port Status has been changed to "Secure-shutdown", rendering the port inoperable. 
 
 ---
 
