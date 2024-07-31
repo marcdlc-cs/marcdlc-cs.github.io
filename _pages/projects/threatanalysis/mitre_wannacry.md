@@ -1,9 +1,9 @@
 ---
-title: Analyzing WannaCry with ATT&CK
+title: Analyzing WannaCry with MITRE ATT&CK
 permalink: /wannacry
 parent: 💥 Threat Analysis
 ---
-# Analyzing WannaCry with ATT&CK
+# Analyzing WannaCry with MITRE ATT&CK
 {: .no_toc }
 
 {: .note }
