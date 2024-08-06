@@ -49,6 +49,8 @@ In the DHCP server, I will configure an address pool for the 192.168.1.0/16 netw
 
 ![](/assets/images/101netplus/101_unresponsedhcp/dhcp_pool.png)
 
+<br>
+
 ### 📄 Task 3: Attempt DHCP discover on PC0
 
 When requesting an IP address from the DHCP server, PC0 broadcasts a DHCP Discover packet to the network. This packet is sent to the broadcast address (255.255.255.255). However, the router drops this packet because routers do not forward broadcast packets. This is an issue because the DHCP server is located in another LAN, and so PC0's request for an IP address fails.
