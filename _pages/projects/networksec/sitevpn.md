@@ -119,7 +119,7 @@ I am configuring a crypto map named "MARCDLCMAP" to define how the VPN will be s
 
 - **Peer IP Address**: The remote endpoint of the VPN tunnel.
 - **Access Control List**: The traffic that should be encrypted and sent through the tunnel.
-- **Transform Set**: The security protocols and algorithms (ESP with AES and SHA-HMAC) to use for protecting the traffic. This was established in the Task 5.
+- **Transform Set**: The security protocols and algorithms (ESP with AES and SHA-HMAC) to use for protecting the traffic. This was established in Task 5.
 
 Finally, I apply the map to G0/1.
 
