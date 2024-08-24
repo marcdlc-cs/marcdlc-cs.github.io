@@ -134,7 +134,7 @@ The following should be implemented when possible, but are not critical to the o
  - Time-controlled safe: reduces impact of physical threats
  - Adequate lighting: limits “hiding” places to deter threats
  - Signage indicating alarm service provider: reduces to likelihood of a successful attack
- - Closed-circuit television (CCTV) surveillance: used to investigative purposes after an incident
+ - Closed-circuit television (CCTV) surveillance: used for investigative purposes after an incident
 
 **Summary/Recommendations**
 
