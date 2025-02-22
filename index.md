@@ -2,6 +2,7 @@
 title: About
 layout: home
 nav_order: 1
+has_toc: false
 ---
 
 Hello! I'm <a href="https://www.linkedin.com/in/marcdlc/" target="_blank">Marc De La Cruz</a>! Welcome to my IT portfolio. Here, you'll find projects and labs that showcase the skills and abilities that I've gained during my journey into the IT field. In the future, I hope to add more advanced projects that demonstrate my growth and my ability to learn and gain new skills.
