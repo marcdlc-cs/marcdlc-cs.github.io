@@ -13,4 +13,4 @@ Thank you for taking the time to visit my portfolio!
 
 **Contact:**  
 E-mail: marcdlc09@gmail.com  
-LinkedIn: <a href="https://www.linkedin.com/in/marcdlc/" target="_blank">linkedin.com/marcdlc</a> Test1
+LinkedIn: <a href="https://www.linkedin.com/in/marcdlc/" target="_blank">linkedin.com/marcdlc</a> Test2
