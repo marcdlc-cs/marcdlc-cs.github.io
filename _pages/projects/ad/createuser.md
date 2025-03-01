@@ -90,7 +90,7 @@ In the Reset Password panel, I set a temporary password that I will give to Kend
 
 ### 📄 Task 6: Disable the account
 
-Kendrick leaves the company and as a security measure, his account is disabled. In some companies, there may be a policy  in place that states that user accounts must be disabled for a certain period of time (30 days, for example) before being deleted. This is so that if the employee comes back to the company for whatever reason, their account can be easily enabled. 
+Kendrick leaves the company and as a security measure, his account is disabled. In some companies, there may be a policy  in place that states that user accounts must be disabled for a certain period of time (90 days, for example) before being deleted. This is so that if the employee comes back to the company for whatever reason, their account can be easily enabled. 
 
 First, within Test OU I create create a sub OU called "Disabled Users". This allows me to separate disabled accounts from active accounts.
 
