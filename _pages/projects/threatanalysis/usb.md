@@ -2,6 +2,7 @@
 title: USB Baiting Attack Vectors
 permalink: /usbbait
 parent: 💥 Threat Analysis
+has_toc: false
 ---
 # USB Baiting Attack Vectors
 {: .no_toc }

@@ -2,6 +2,7 @@
 title: Vulnerability Assessment for a Small Business
 permalink: /vulnassess1
 parent: 👁️ Vulnerability Analysis
+has_toc: false
 ---
 # Vulnerability Assessment for a Small Business
 {: .no_toc }

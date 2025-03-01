@@ -2,6 +2,7 @@
 title: Using Python for File Updates
 permalink: /python1
 parent: 🐍 Python
+has_toc: false
 ---
 # Using Python for File Updates
 {: .no_toc }

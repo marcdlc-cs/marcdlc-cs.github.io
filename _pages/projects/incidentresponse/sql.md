@@ -2,6 +2,7 @@
 title: Investigating Logins With SQL
 permalink: /sql
 parent: 🚨 Incident Response
+has_toc: false
 ---
 # Investigating Logins With SQL
 {: .no_toc }

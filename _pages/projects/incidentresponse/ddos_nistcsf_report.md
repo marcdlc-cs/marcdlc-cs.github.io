@@ -2,6 +2,7 @@
 title: DDoS Attack Incident Report
 permalink: /ddosnist
 parent: 🚨 Incident Response
+has_toc: false
 ---
 # DDoS Attack Incident Report
 {: .no_toc }

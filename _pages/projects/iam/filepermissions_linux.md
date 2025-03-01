@@ -2,6 +2,7 @@
 title: File Permissions in Linux
 permalink: /permissions
 parent: 🗝️ Identity & Access Mgmt
+has_toc: false
 ---
 # Managing File Permissions in Linux
 {: .no_toc }

@@ -2,6 +2,7 @@
 title: Switch MAC Filtering
 permalink: /macfilter
 parent: 🔒 Network Security
+has_toc: false
 ---
 # Configuring MAC Filtering on a Switch
 {: .no_toc }

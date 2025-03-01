@@ -2,6 +2,7 @@
 title: Configuring WPA2 and AES
 permalink: /wpa2aes
 parent: 🔒 Network Security
+has_toc: false
 ---
 # Configuring WPA2 and AES on a Wireless Access Point
 {: .no_toc }

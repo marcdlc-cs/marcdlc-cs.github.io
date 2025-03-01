@@ -2,6 +2,7 @@
 title: Switch Port Security
 permalink: /portsec
 parent: 🔒 Network Security
+has_toc: false
 ---
 # Configuring Switch Port Security
 {: .no_toc }

@@ -2,6 +2,7 @@
 title: Rogue DHCP Server
 permalink: /roguedhcp
 parent: 🔧 Network Troubleshooting
+has_toc: false
 ---
 # Troubleshooting a Rogue DHCP Server
 {: .no_toc }

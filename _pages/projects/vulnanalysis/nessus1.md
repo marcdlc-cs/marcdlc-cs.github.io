@@ -2,6 +2,7 @@
 title: Nessus Scanning Exercise
 permalink: /nessus1
 parent: 👁️ Vulnerability Analysis
+has_toc: false
 ---
 # Nessus Scan: Analyzing ProFTPD 
 {: .no_toc }

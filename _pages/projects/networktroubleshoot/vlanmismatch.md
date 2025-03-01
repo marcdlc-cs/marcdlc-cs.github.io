@@ -2,6 +2,7 @@
 title: VLAN Mismatch
 permalink: /vlanmismatch
 parent: 🔧 Network Troubleshooting
+has_toc: false
 ---
 # Troubleshooting a VLAN Mismatch
 {: .no_toc }

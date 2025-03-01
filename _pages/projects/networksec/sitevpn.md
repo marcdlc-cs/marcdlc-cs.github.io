@@ -2,6 +2,7 @@
 title: Configuring a Site-to-Site VPN
 permalink: /sitevpn
 parent: 🔒 Network Security
+has_toc: false
 ---
 # Configuring a Site-to-Site VPN
 {: .no_toc }

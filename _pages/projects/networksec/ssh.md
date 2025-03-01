@@ -2,6 +2,7 @@
 title: Configuring SSH
 permalink: /ssh
 parent: 🔒 Network Security
+has_toc: false
 ---
 # Configuring SSH
 {: .no_toc }

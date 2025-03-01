@@ -2,6 +2,7 @@
 title: Configuring a DHCP Server
 permalink: /dhcp
 parent: 🌐 Networking Fundamentals
+has_toc: false
 ---
 # Configuring a DHCP Server
 {: .no_toc }

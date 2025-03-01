@@ -2,6 +2,8 @@
 title: Splunk Dashboard Exercise
 permalink: /splunk_sports
 parent: 🗂️ SIEM Labs
+has_toc: false
+has_toc: false
 ---
 # Splunk Dashboards for Sporting Goods Store
 {: .no_toc }

@@ -2,6 +2,7 @@
 title: Botium Toys Security Audit
 permalink: /botium
 parent: ⚠️ Risk Management
+has_toc: false
 ---
 # Botium Toys Security Audit  
 {: .no_toc }

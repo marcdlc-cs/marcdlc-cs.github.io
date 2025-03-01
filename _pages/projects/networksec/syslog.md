@@ -2,6 +2,7 @@
 title: Configuring a Syslog Server
 permalink: /syslog
 parent: 🔒 Network Security
+has_toc: false
 ---
 # Configuring a Syslog Server
 {: .no_toc }

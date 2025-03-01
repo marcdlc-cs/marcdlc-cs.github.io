@@ -2,6 +2,7 @@
 title: Windows Defender Firewall
 permalink: /defender
 parent: 🔒 Network Security
+has_toc: false
 ---
 # Configuring Windows Defender Firewall
 {: .no_toc }

@@ -2,6 +2,7 @@
 title: Disable Unused Services/Ports
 permalink: /disableserv
 parent: 🔒 Network Security
+has_toc: false
 ---
 # Disable Unused Services and Ports
 {: .no_toc }

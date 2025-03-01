@@ -2,6 +2,7 @@
 title: Troubleshooting OSPF
 permalink: /ospf
 parent: 🔧 Network Troubleshooting
+has_toc: false
 ---
 # Troubleshooting OSPF Network Configuration
 {: .no_toc }
