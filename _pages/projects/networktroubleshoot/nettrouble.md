@@ -1,6 +1,6 @@
 ---
 title: 🔧 Network Troubleshooting
-nav_order: 9
+nav_order: 10
 permalink: /nettrouble
 has_children: true
 has_toc: false

@@ -6,4 +6,4 @@ has_children: true
 has_toc: false
 ---
 
-Basic network infrastructure are listed here!
+Networking fundamentals labs are listed here!
