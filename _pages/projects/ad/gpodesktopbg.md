@@ -59,7 +59,7 @@ I can see that the file share is accessible.
 
 ### 📄 Task 3: Create a Desktop Background GPO and link it to the domain
 
-In Server Manager, I navigate to Tools > Group Policy Management. I right-click the marcdlc.com to create a GPO and link it to the domain. This allows me to apply the GPO to all users in the marcdlc.com domain. I name it "Desktop Background".
+In Server Manager, I navigate to Tools > Group Policy Management. I right-click the marcdlc.com domain to create a GPO and link it to the domain. This allows me to apply the GPO to all users in the marcdlc.com domain. I name it "Desktop Background".
 
 ![](/assets/images/activedirectory/gpo_desktopbg/step4.png)  
 
