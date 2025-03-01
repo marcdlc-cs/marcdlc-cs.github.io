@@ -35,7 +35,7 @@ I will be using the following desktop background:
 ## Results
 ### 📄 Task 1: Create a file share that contains the desktop background
 
-First, I create a file share that contains the desktop background image. This allows all workstations within the domain to access the image file from a centralized location. I create a folder named "Desktop Backgrounds" and I place the file image inside of it. To make it a file share, I right-click on the folder and select Properties > Sharing > Advanced Sharing. In Advanced Sharing, I check "Share this folder" and I name it "Desktop Backgrounds".
+First, I create a file share that contains the desktop background image. This allows all workstations within the domain to access the image file from a centralized location. I create a folder named "Desktop Backgrounds" and I place the image file inside of it. To make it a file share, I right-click on the folder and select Properties > Sharing > Advanced Sharing. In Advanced Sharing, I check "Share this folder" and I name it "Desktop Backgrounds".
 
 ![](/assets/images/activedirectory/gpo_desktopbg/step1.png)
 
