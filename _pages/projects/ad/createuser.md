@@ -1,6 +1,6 @@
 ---
 title: Common Tasks
-permalink: /createuser
+permalink: /commontasks
 parent: 👩‍👧‍👦 Active Directory
 has_toc: false
 ---
