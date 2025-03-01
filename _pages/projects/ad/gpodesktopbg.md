@@ -17,96 +17,88 @@ Active Directory, Group Policy Management, Group Policy Creation, File Shares
 {:toc}
 
 ## Scenario
-In this Packet Tracer lab, I will configure a AAA server to use TACACS+ to control user access to network equipment. The TACACS+ server will be used to authenticate a user to connect to a multilayer switch. 
+A group policy is a feature used to centrally manage and configure settings for users and computers within an AD domain. It enables administrators to enforce specific policies across the network, ensuring consistency and compliance. In this project, I will create a group policy that configures a desktop background consistently across all user workstations. This group policy will be linked to the domain so that it applies to all users within that domain.
 
-TACACS+ (Terminal Access Controller Access-Control System Plus) is a security protocol used in computer networking to provide centralized authentication, authorization, and accounting (AAA) services for users who access a network. It is an enhancement of the earlier TACACS protocol and is primarily used for managing and controlling access to network devices like routers, switches, and firewalls.
+I will be using the following desktop background:
 
-TACACS+ was developed by Cisco Systems, and it is closely associated with Cisco's network equipment. It differs from RADIUS in that it offers enhanced network security, allows for more granular control and flexibility over AAA processes, and is widely used in managing network devices.
-
-This is the network topology I will be using:
-
-![](/assets/images/101netplus/69_tacacs/topology.png)
+![](/assets/images/activedirectory/gpo_desktopbg/desktopbg_sm.png)
 
 ## Objectives
 
-1. Configure IP information for the PC, VLAN 1, and TACACS+ server
-2. Configure AAA on the switch
-3. Create a key string called "marcdlckey"
-4. Enable the AAA service on the TACACS+ server
-5. Specify which tasks are allowed on the switch
-6. Enable AAA debugging and then Telnet into the switch
+1. Create a file share that contains the desktop background
+2. Verify that the file share is accessible
+3. Create a Desktop Background GPO and link it to the domain
+4. Configure the GPO
+5. Update all group policy settings
+6. Verify that the GPO is working as intended
 
 ## Results
-### 📄 Task 1: Configure IP information for the PC, VLAN 1, and TACACS+ server
+### 📄 Task 1: Create a file share that contains the desktop background
 
-I set the IP address of the PC to 10.1.1.1, subnet mask to 255.0.0.0, and default gateway to 10.1.1.20. 
+First, I create a file share that contains the desktop background image. This allows all workstations within the domain to access the image file from a centralized location. I create a folder named "Desktop Backgrounds" and I place the file image inside of it. To make it a file share, I right-click on the folder and select Properties > Sharing > Advanced Sharing. In Advanced Sharing, I check "Share this folder" and I name it "Desktop Backgrounds".
 
-![](/assets/images/101netplus/69_tacacs/pc_ipconfig.png)
+![](/assets/images/activedirectory/gpo_desktopbg/step1.png)
 
-On the switch, I configure the IP address 10.1.1.20 for VLAN 1. 
+I only want this file share to be accessible by authenticated users. To do this, in the Advanced Sharing panel, I press the Permissions button. I add the Authenticated Users group object and I make sure that it only has Read permissions. 
 
-![](/assets/images/101netplus/69_tacacs/switch_vlan1_ipconfig.png)
-
-On the AAA server, I assign the IP address 10.1.1.10 and subnet mask of 255.0.0.0.
-
-![](/assets/images/101netplus/69_tacacs/server_ipconfig.png)
-
-<br>
-
-### 📄 Task 2: Configure AAA on the switch
-
-I use the following CiscoIOS commands to configure AAA on the switch:
-
-![](/assets/images/101netplus/69_tacacs/aaa_config_switch.png)
-
-I create a local username and password of "marcdlc" as a fallback in case the TACACS+ server is not available. I then set the password to go into privileged EXEC mode for the switch to "mycisco".
-
-Next, I specify that authentication for remote login attempts to the switch should first try TACACS+ (using the tacacs+ group), and if TACACS+ is unavailable, it falls back to the local database (local). 
-
-For virtual terminal lines 0 through 15 (which control remote access to the switch), I apply the "myauth" authentication method list which uses the TACACS+ server.
+![](/assets/images/activedirectory/gpo_desktopbg/step2.png)
 
 
 <br>
 
-### 📄 Task 3: Create a key string called "marcdlckey"
+### 📄 Task 2: Verify that the file share is accessible
 
-The key string is used to authenticate and authorize communication between the client (switch) and the TACACS+ server. When the client sends authentication requests to the TACACS+ server, it includes this key string as part of the authentication process. This ensures that only authorized clients (those with the correct key string configured) can communicate with the TACACS+ server.
+I need to verify that the file share is accessible by authenticated users. To do this, I log in to a user's account from another workstation. I open File Explorer and type in the UNC for the file share: \\\\ADUD01MARCDLC\
 
-![](/assets/images/101netplus/69_tacacs/createkey.png)
+![](/assets/images/activedirectory/gpo_desktopbg/step3.png)
 
-The key string also serves to encrypt communication between the switch and the server, adding another layer of security.
+I can see that the file share is accessible. 
 
-<br>
-
-### 📄 Task 4: Enable the AAA service on the TACACS+ server
-
-On the server, I make sure that the AAA service is turned on. I also add the client information for the switch which includes its IP address, server type (TACACS+) and key. Then, I add the username and password of "marcdlc" so that the switch can authenticate users against it.
-
-![](/assets/images/101netplus/69_tacacs/server_tacacsconfig.png)
 
 <br>
 
-### 📄 Task 5: Specify which tasks are allowed on the switch
+### 📄 Task 3: Create a Desktop Background GPO and link it to the domain
 
-The user should be allowed to go into EXEC mode. The following commands tell the switch to authorize executive level access using the TACACS+ server. If the server fails to respond, the switch should fall back to local authorization using the locally configured credentials (marcdlc:marcdlc) on the switch itself.
+In Server Manager, I navigate to Tools > Group Policy Management. I right-click the marcdlc.com to create a GPO and link it to the domain. This allows me to apply the GPO to all users in the marcdlc.com domain. I name it "Desktop Background".
 
-![](/assets/images/101netplus/69_tacacs/switch_allowedtasks.png)
+![](/assets/images/activedirectory/gpo_desktopbg/step4.png)  
+
+![](/assets/images/activedirectory/gpo_desktopbg/step5.png)
+
 
 <br>
 
-### 📄 Task 6: Enable AAA debugging and then Telnet into the switch
+### 📄 Task 4: Configure the GPO
 
-To enable AAA debugging on the switch, I use the command:
+To set the specific policies in the Desktop Background GPO, I right-click it and select Edit. This brings up the Group Policy Management Editor. I navigate to User Configuration > Policies > Administrative Templates > Desktop > Desktop > Desktop Wallpaper. I right-click Desktop Wallpaper and select Edit. 
 
-![](/assets/images/101netplus/69_tacacs/switch_aaadebug.png)
+![](/assets/images/activedirectory/gpo_desktopbg/step6.png)
 
-The switch will start to generate verbose output regarding AAA processes. This output includes detailed information about authentication attempts, authorization decisions, and accounting activities.
+In the Desktop Wallpaper settings, I make sure that Enabled is selected. Then, I enter the UNC for the desktop background image file: \\\\ADUD01MARCDLC\Desktop Backgrounds\bg_nature.jpg
 
-Next, I attempt to Telnet into the switch from the PC:
+![](/assets/images/activedirectory/gpo_desktopbg/step7.png)
 
-![](/assets/images/101netplus/69_tacacs/pc_telnet.png)
 
-My login attempt is successfully authenticated by the TACACS+ server and I am allowed to go into privileged EXEC mode.
+<br>
+
+### 📄 Task 5: Update all group policy settings
+
+To update the group policy settings, I open a command prompt and use the command ``gpupdate /force``.
+
+![](/assets/images/activedirectory/gpo_desktopbg/step8.png)
+
+To verify that the GPO has been applied, I run the command ``gpresult /r`` which outputs all of the applied GPOs. I see that the Desktop Background GPO appears under "Applied Group Policy Objects".
+
+![](/assets/images/activedirectory/gpo_desktopbg/step9.png)
+
+
+<br>
+
+### 📄 Task 6: Verify that the GPO is working as intended
+
+I log in to another workstation to check if the desktop background has been changed.
+
+![](/assets/images/activedirectory/gpo_desktopbg/step10.png)
 
 
 ---

@@ -1,10 +1,10 @@
 ---
-title: Common Tasks
-permalink: /commontasks
+title: Creating a User Account
+permalink: /createuser
 parent: 👩‍👧‍👦 Active Directory
 has_toc: false
 ---
-# Common Tasks: User and Group Creation, Password Resets, and Disabling Accounts
+# User and Group  Object Creation, Password Resets, and Disabling Accounts
 {: .no_toc }
 
 {: .note }
