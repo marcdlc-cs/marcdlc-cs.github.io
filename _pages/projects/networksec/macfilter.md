@@ -17,7 +17,7 @@ Network Security, Wireless Networking, Router Configuration, Encryption, Authent
 {:toc}
 
 ## Scenario
-In this Packet Tracer lab, I will be configuring MAC filtering on a switch. In this case, MAC filtering will be used to limit the amount of MAC addresses that can be learned a single port. I will be configuring the switch port to only learn a single, specific MAC address. If this rule is violated, the switch will shut down the port. 
+In this Packet Tracer lab, I will be configuring MAC filtering on a switch. In this case, MAC filtering will be used to limit the amount of MAC addresses that can be learned on a single port. I will be configuring the switch port to only learn a single specific MAC address. If this rule is violated, the switch will shut down the port. 
 
 MAC filtering prevents unauthorized devices from connecting to the network. This ensures that only trusted devices can access network resources. MAC filtering can also help mitigate on-path attacks by ensuring that only devices with known MAC addresses can connect to the network. This reduces the risk of attackers inserting themselves between legitimate devices and the network.
 
