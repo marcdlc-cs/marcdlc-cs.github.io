@@ -62,7 +62,7 @@ Back in the main building, user1 and user2 need to be able to access the wireles
 
 ![](/assets/images/101netplus/aaa_radius/step2.png)
 
-From now, when user1 and user2 join the wireless network, they are authenticated through the RADIUS server.
+From now on, when user1 and user2 join the wireless network, they are authenticated through the RADIUS server.
 
 <br>
 
