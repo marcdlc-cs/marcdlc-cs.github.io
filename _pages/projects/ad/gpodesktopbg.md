@@ -70,7 +70,7 @@ In Server Manager, I navigate to Tools > Group Policy Management. I right-click 
 
 ### 📄 Task 4: Configure the GPO
 
-To set the specific policies in the Desktop Background GPO, I right-click it and select Edit. This brings up the Group Policy Management Editor. I navigate to User Configuration > Policies > Administrative Templates > Desktop > Desktop > Desktop Wallpaper. I right-click Desktop Wallpaper and select Edit. 
+To set the specific policies in the Desktop Background GPO, I right-click it and select Edit. This brings up the Group Policy Management Editor. I navigate to User Configuration > Policies > Administrative Templates > Desktop > Desktop Wallpaper. I right-click Desktop Wallpaper and select Edit. 
 
 ![](/assets/images/activedirectory/gpo_desktopbg/step6.png)
 
